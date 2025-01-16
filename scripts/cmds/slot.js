@@ -1,95 +1,84 @@
-const axios = require("axios");
-
 module.exports = {
   config: {
-    name: 'cmdstore',
-    version: '1.0',
-    author: 'Vex_Kshitiz',
-    role: 0,
-    shortDescription: 'store of cmds',
-    longDescription: 'store of cmds all  made by kshitiz',
-    category: 'utility',
-    guide: {
-      en: 'To view commands: {p}cmdstore\nTo paginate: {p}cmdstore {page}\nTo search: {p}cmdstore {search}'
-    }
+    name: "slot",
+    version: "1.0",
+    author: "Riley",
+    countDown: 3,
+    shortDescription: {
+      en: "Slot game",
+    },
+    longDescription: {
+      en: "Slot game.",
+    },
+    category: "game",
   },
-
-  onStart: async function ({ api, event, args, message }) {
-    try {
-      let page = 1;
-      let searchQuery = "";
-
-      if (args.length === 1 && !isNaN(parseInt(args[0]))) {
-        page = parseInt(args[0]);
-      } else if (args.length === 1 && typeof args[0] === 'string') {
-        searchQuery = args[0];
-      } else if (args.length === 2 && args[0] === 'search' && typeof args[1] === 'string') {
-        searchQuery = args[1];
-      }
-
-      const response = await axios.get("https://cmd-store.vercel.app/kshitiz");
-      const commands = response.data;
-
-      let filteredCommands = commands;
-      if (searchQuery) {
-        filteredCommands = commands.filter(cmd => cmd.cmdName.toLowerCase().includes(searchQuery.toLowerCase()));
-      }
-
-      const startIndex = (page - 1) * 10;
-      const endIndex = page * 10;
-      const paginatedCommands = filteredCommands.slice(startIndex, endIndex);
-
-      let replyMessage = "";
-      paginatedCommands.forEach(cmd => {
-        replyMessage += `
-        𝗜𝗗:${cmd.id}
-        𝗖𝗠𝗗:${cmd.cmdName}
-        𝗖𝗢𝗗𝗘:${cmd.codeLink}
-        𝗜𝗡𝗙𝗢:${cmd.description}
-      ----------------------------------------------`;
-      });
-
-      if (replyMessage === "") {
-        replyMessage = "No commands found.";
-      }
-
-      message.reply(replyMessage, (err, info) => {
-        global.GoatBot.onReply.set(info.messageID, {
-          commandName: "cmdstore",
-          messageID: info.messageID,
-          author: event.senderID,
-          commands,
-        });
-      });
-    } catch (error) {
-      console.error(error);
-      message.reply("An error occurred while fetching commands.");
-    }
+  langs: {
+    en: {
+      invalid_amount: "Enter a valid and positive amount to have a double chance of winning 🤦🏻‍♂",
+      not_enough_money: "Baka check your balance first",
+      spin_message: "Spinning...",
+      win_message: "you win!💝 $%1 ",
+      lose_message: "sorry you lose💔 $%1 ",
+      jackpot_message: "Jackpot!😲 You won $%1 with three %2 symbols",
+    },
   },
+  onStart: async function ({ args, message, event, envCommands, usersData, commandName, getLang }) {
+    const { senderID } = event;
+    const userData = await usersData.get(senderID);
+    const amount = parseInt(args[0]);
 
-  onReply: async function ({ api, event, Reply, args, message }) {
-    const { author, commandName, commands } = Reply;
-
-    if (event.senderID !== author || !commands) {
-      return;
+    if (isNaN(amount) || amount <= 0) {
+      return message.reply(getLang("invalid_amount"));
     }
 
-    const commandID = parseInt(args[0], 10);
-
-    if (isNaN(commandID) || !commands.some(cmd => cmd.id === commandID)) {
-      message.reply("Invalid input.\nPlease provide a valid command ID.");
-      return;
+    if (amount > userData.money) {
+      return message.reply(getLang("not_enough_money"));
     }
 
-    const selectedCommand = commands.find(cmd => cmd.id === commandID);
+    const slots = ["🍒", "🍇", "🍊", "🍉", "🍎", "🍓", "🍏", "🍌"];
+    const slot1 = slots[Math.floor(Math.random() * slots.length)];
+    const slot2 = slots[Math.floor(Math.random() * slots.length)];
+    const slot3 = slots[Math.floor(Math.random() * slots.length)];
 
-    let replyMessage = `
-    𝗜𝗗:${selectedCommand.id}
-    𝗖𝗠𝗗:${selectedCommand.cmdName}
-    𝗖𝗢𝗗𝗘:${selectedCommand.codeLink}
-    𝗜𝗡𝗙𝗢:${selectedCommand.description}`;
+    const winnings = calculateWinnings(slot1, slot2, slot3, amount);
 
-    message.reply(replyMessage);
-    global.GoatBot.onReply.delete(event.messageID);
+    await usersData.set(senderID, {
+      money: userData.money + winnings,
+      data: userData.data,
+    });
+
+    const messageText = getSpinResultMessage(slot1, slot2, slot3, winnings, getLang);
+
+    return message.reply(messageText);
   },
 };
+
+function calculateWinnings(slot1, slot2, slot3, betAmount) {
+  if (slot1 === "🍒" && slot2 === "🍒" && slot3 === "🍒") {
+    return betAmount * 10;
+  } else if (slot1 === "🍇" && slot2 === "🍇" && slot3 === "🍇") {
+    return betAmount * 5;
+  } else if (slot1 === slot2 && slot2 === slot3) {
+    return betAmount * 3;
+  } else if (slot1 === slot2 || slot1 === slot3 || slot2 === slot3) {
+    return betAmount * 2;
+  } else {
+    return -betAmount;
+  }
+}
+
+function getSpinResultMessage(slot1, slot2, slot3, winnings, getLang) {
+  if (winnings > 0) {
+    if (slot1 === "🍒" && slot2 === "🍒" && slot3 === "🍒") {
+      return getLang("jackpot_message", winnings, "🍒");
+    } else {
+      return getLang("win_message", winnings) + 
+        ` 
+      [ ${slot1} | ${slot2} | ${slot3} ]`;
+    }
+  } else {
+    return getLang("lose_message", -winnings) +
+      ` 
+    [ ${slot1} | ${slot2} | ${slot3} ]`;
+  }
+}
