@@ -213,7 +213,7 @@ module.exports = {
     longDescription: {
       en: "Analyzes love compatibility between two people",
     },
-    category: "FUN",
+    category: "fun",
     guide: {
       en: "{p}love [name1] | [name2]",
     },
