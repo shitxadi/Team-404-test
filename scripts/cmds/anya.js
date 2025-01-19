@@ -23,12 +23,12 @@ module.exports = {
         name: 'anya',
         aliases: ['ai', 'chat'],
         version: '2.0.0',
-        author: 'Priyanshi Kaur',
+        author: 'SUDIP',
         countDown: 5,
         role: 0,
         shortDescription: 'Advanced Anya AI Chat',
         longDescription: 'Chat with Anya AI with multiple personalities and features',
-        category: 'AI Chat',
+        category: '𝗔𝗜',
         guide: {
             en: `Anya AI Chat Commands:
 1. Basic Chat:
