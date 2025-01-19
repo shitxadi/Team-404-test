@@ -13,7 +13,7 @@ module.exports = {
       vi: "",
       en: "Approve or Reject Your Bot Pending Threads"
     },
-    category: "BOX CHAT"
+    category: "box chat"
   },
 
   langs: {
