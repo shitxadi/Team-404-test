@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 let PriyaPrefix = [
-  'queen',
+  'lvy',
   'ai',
   '.ai', // Add Your Prefix Here
 ];
@@ -13,8 +13,8 @@ module.exports = {
     name: 'ai',
     version: '2.2.0',
     role: 0,
-    category: 'AI',
-    author: 'Priyanshi Kaur 🩶 Priyansh Rajput',
+    category: '𝗔𝗜',
+    author: 'SUDIP',
     shortDescription: 'Artificial Intelligence',
     longDescription: 'Ask Anything To Ai For Your Answers',
   },
@@ -57,7 +57,7 @@ module.exports = {
 
     const priya = event.body.substring(ahprefix.length).trim();
     if (!priya) {
-      await message.reply('𝑄𝑢𝑒𝑒𝑛 𝐼𝑠 𝐻𝑒𝑟𝑒 𝑇𝑜 𝐻𝑒𝑙𝑝 𝑌𝑜𝑢 ✪');
+      await message.reply('Lvy 𝐼𝑠 𝐻𝑒𝑟𝑒 𝑇𝑜 𝐻𝑒𝑙𝑝 𝑌𝑜𝑢 ✪');
       return;
     }
 
@@ -81,7 +81,7 @@ module.exports = {
     const encodedPrompt = encodeURIComponent(cleanedQuery);
 
     // Send the initial waiting message
-    const waitingMessage = await message.reply('𝚀𝚞𝚎𝚎𝚗 𝚃𝚑𝚒𝚗𝚔𝚒𝚗𝚐.....');
+    const waitingMessage = await message.reply('Lvy Thinking.....');
 
     try {
       // Call the AI API
