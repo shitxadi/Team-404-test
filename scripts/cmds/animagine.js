@@ -8,12 +8,12 @@ module.exports = {
     name: "animagine",
     aliases: [],
     version: "1.0",
-    author: "Kshitiz",
+    author: "SUDIP",
     countDown: 0,
     role: 0,
     shortDescription: "Generate an anime style image.",
     longDescription: "Generate an anime style image",
-    category: "ai",
+    category: "𝗔𝗜",
     guide: {
       en: "{p}imagine [prompt] | [model]"
     }
