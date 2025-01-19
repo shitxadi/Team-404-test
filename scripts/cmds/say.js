@@ -5,12 +5,12 @@ module.exports = {
 		name: "say",
 		aliases: ["say"],
 		version: "1.0",
-		author: "MILAN",
+		author: "SUDIP",
 		countDown: 1,
 		role: 0,
 		shortDescription: "say something",
 		longDescription: "",
-		category: "Fun",
+		category: "𝗔𝗜",
 		guide: {
 			vi: "{pn} text ",
 			en: "{pn} text "
