@@ -65,7 +65,7 @@ module.exports = {
         role: 0,
         shortDescription: "Send bot script with encryption",
         longDescription: "Send bot specified file with multiple encryption methods",
-        category: "Admin",
+        category: "OWNER",
         guide: "{pn} [options] filename\nOptions:\n- en:on/off - Enable/disable encryption\n- m:1-5 - Set encryption method\n- s - Show current settings"
     },
 
