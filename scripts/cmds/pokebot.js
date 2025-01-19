@@ -75,3596 +75,4044 @@ module.exports = {
     spawnTimers[threadID] = setTimeout(async () => {
       const pokos = [
   {
-    "name": "abra",
-    "image": "https://i.ibb.co/yyB2S6z/abra.png"
-  },
-  {
-    "name": "absol",
-    "image": "https://i.ibb.co/Vp6k3dm/absol.png"
-  },
-  {
-    "name": "accelgor",
-    "image": "https://i.ibb.co/4PjXB1d/accelgor.png"
-  },
-  {
-    "name": "aegislash-shield",
-    "image": "https://i.ibb.co/tYQdfbM/aegislash-shield.png"
-  },
-  {
-    "name": "aerodactyl",
-    "image": "https://i.ibb.co/Lx4j9Vc/aerodactyl.png"
-  },
-  {
-    "name": "aggron",
-    "image": "https://i.ibb.co/XzMKRfX/aggron.png"
-  },
-  {
-    "name": "aipom",
-    "image": "https://i.ibb.co/GdszJ6V/aipom.png"
-  },
-  {
-    "name": "alakazam",
-    "image": "https://i.ibb.co/ZLbCmXV/alakazam.png"
-  },
-  {
-    "name": "alcremie",
-    "image": "https://i.ibb.co/ZdfpQvp/alcremie.png"
-  },
-  {
-    "name": "alomomola",
-    "image": "https://i.ibb.co/6rPSQ9d/alomomola.png"
-  },
-  {
-    "name": "altaria",
-    "image": "https://i.ibb.co/kqszVYs/altaria.png"
-  },
-  {
-    "name": "amaura",
-    "image": "https://i.ibb.co/4dnQk6g/amaura.png"
-  },
-  {
-    "name": "ambipom",
-    "image": "https://i.ibb.co/yyx18Qy/ambipom.png"
-  },
-  {
-    "name": "amoonguss",
-    "image": "https://i.ibb.co/3MgS4jm/amoonguss.png"
-  },
-  {
-    "name": "ampharos",
-    "image": "https://i.ibb.co/0MNWyFv/ampharos.png"
-  },
-  {
-    "name": "anorith",
-    "image": "https://i.ibb.co/8gPDzSv/anorith.png"
-  },
-  {
-    "name": "appletun",
-    "image": "https://i.ibb.co/sgRmt8p/appletun.png"
-  },
-  {
-    "name": "applin",
-    "image": "https://i.ibb.co/n81Jzks/applin.png"
-  },
-  {
-    "name": "araquanid",
-    "image": "https://i.ibb.co/nRtXpDX/araquanid.png"
-  },
-  {
-    "name": "arbok",
-    "image": "https://i.ibb.co/YygM0WR/arbok.png"
-  },
-  {
-    "name": "arcanine",
-    "image": "https://i.ibb.co/L5F39SZ/arcanine.png"
-  },
-  {
-    "name": "arceus-normal",
-    "image": "https://i.ibb.co/vYfHTCY/arceus-normal.png"
-  },
-  {
-    "name": "archen",
-    "image": "https://i.ibb.co/gjrrKWf/archen.png"
-  },
-  {
-    "name": "archeops",
-    "image": "https://i.ibb.co/cYKZjf8/archeops.png"
-  },
-  {
-    "name": "arctovish",
-    "image": "https://i.ibb.co/z7RSTZS/arctovish.png"
-  },
-  {
-    "name": "arctozolt",
-    "image": "https://i.ibb.co/KqCs4hD/arctozolt.png"
-  },
-  {
-    "name": "ariados",
-    "image": "https://i.ibb.co/LZ4RwGH/ariados.png"
-  },
-  {
-    "name": "armaldo",
-    "image": "https://i.ibb.co/Wz3wtYt/armaldo.png"
-  },
-  {
-    "name": "aromatisse",
-    "image": "https://i.ibb.co/Pz3kGcZ/aromatisse.png"
-  },
-  {
-    "name": "aron",
-    "image": "https://i.ibb.co/ftKBKWf/aron.png"
-  },
-  {
-    "name": "arrokuda",
-    "image": "https://i.ibb.co/CHJ0BmN/arrokuda.png"
-  },
-  {
-    "name": "articuno",
-    "image": "https://i.ibb.co/2jZt1q4/articuno.png"
-  },
-  {
-    "name": "audino",
-    "image": "https://i.ibb.co/TWZ12k9/audino.png"
-  },
-  {
-    "name": "aurorus",
-    "image": "https://i.ibb.co/cY6bbRs/aurorus.png"
-  },
-  {
-    "name": "avalugg",
-    "image": "https://i.ibb.co/k9wVbN6/avalugg.png"
-  },
-  {
-    "name": "axew",
-    "image": "https://i.ibb.co/1KF85Jj/axew.png"
-  },
-  {
-    "name": "azelf",
-    "image": "https://i.ibb.co/q98P3Bf/azelf.png"
-  },
-  {
-    "name": "azumarill",
-    "image": "https://i.ibb.co/P4kCd17/azumarill.png"
-  },
-  {
-    "name": "azurill",
-    "image": "https://i.ibb.co/KFf0gK3/azurill.png"
-  },
-  {
-    "name": "bagon",
-    "image": "https://i.ibb.co/B349fqw/bagon.png"
-  },
-  {
-    "name": "baltoy",
-    "image": "https://i.ibb.co/V2SFLrk/baltoy.png"
-  },
-  {
-    "name": "banette",
-    "image": "https://i.ibb.co/cTN4wzD/banette.png"
-  },
-  {
-    "name": "barbaracle",
-    "image": "https://i.ibb.co/gtB3ZfV/barbaracle.png"
-  },
-  {
-    "name": "barboach",
-    "image": "https://i.ibb.co/xzcZMw0/barboach.png"
-  },
-  {
-    "name": "barraskewda",
-    "image": "https://i.ibb.co/KFCD80t/barraskewda.png"
-  },
-  {
-    "name": "basculin-red-striped",
-    "image": "https://i.ibb.co/N3zM18V/basculin-red-striped.png"
-  },
-  {
-    "name": "bastiodon",
-    "image": "https://i.ibb.co/qBZLtHW/bastiodon.png"
-  },
-  {
-    "name": "bayleef",
-    "image": "https://i.ibb.co/NWCTLSh/bayleef.png"
-  },
-  {
-    "name": "beartic",
-    "image": "https://i.ibb.co/tpFmTRL/beartic.png"
-  },
-  {
-    "name": "beautifly",
-    "image": "https://i.ibb.co/k6tSHSS/beautifly.png"
-  },
-  {
-    "name": "beedrill",
-    "image": "https://i.ibb.co/ZhK7Sbk/beedrill.png"
-  },
-  {
-    "name": "beheeyem",
-    "image": "https://i.ibb.co/4mVw3v8/beheeyem.png"
-  },
-  {
-    "name": "beldum",
-    "image": "https://i.ibb.co/C0Cj2Jm/beldum.png"
-  },
-  {
-    "name": "bellossom",
-    "image": "https://i.ibb.co/YWdRLG4/bellossom.png"
-  },
-  {
-    "name": "bellsprout",
-    "image": "https://i.ibb.co/3vjdgZQ/bellsprout.png"
-  },
-  {
-    "name": "bergmite",
-    "image": "https://i.ibb.co/sC16NFM/bergmite.png"
-  },
-  {
-    "name": "bewear",
-    "image": "https://i.ibb.co/HrCScP7/bewear.png"
-  },
-  {
-    "name": "bibarel",
-    "image": "https://i.ibb.co/hynrYxR/bibarel.png"
-  },
-  {
-    "name": "bidoof",
-    "image": "https://i.ibb.co/grdYtLM/bidoof.png"
-  },
-  {
-    "name": "binacle",
-    "image": "https://i.ibb.co/74LGM2H/binacle.png"
-  },
-  {
-    "name": "bisharp",
-    "image": "https://i.ibb.co/Wt22695/bisharp.png"
-  },
-  {
-    "name": "blacephalon",
-    "image": "https://i.ibb.co/wMQxsbk/blacephalon.png"
-  },
-  {
-    "name": "blastoise",
-    "image": "https://i.ibb.co/HPhxW7C/blastoise.png"
-  },
-  {
-    "name": "blaziken",
-    "image": "https://i.ibb.co/CPkPk7r/blaziken.png"
-  },
-  {
-    "name": "blipbug",
-    "image": "https://i.ibb.co/FJSghNZ/blipbug.png"
-  },
-  {
-    "name": "blissey",
-    "image": "https://i.ibb.co/JkRJsxF/blissey.png"
-  },
-  {
-    "name": "blitzle",
-    "image": "https://i.ibb.co/FDc5PPx/blitzle.png"
-  },
-  {
-    "name": "boldore",
-    "image": "https://i.ibb.co/dcHV7XW/boldore.png"
-  },
-  {
-    "name": "boltund",
-    "image": "https://i.ibb.co/7jqSjWx/boltund.png"
-  },
-  {
-    "name": "bonsly",
-    "image": "https://i.ibb.co/6N3tVrC/bonsly.png"
-  },
-  {
-    "name": "bouffalant",
-    "image": "https://i.ibb.co/NKLtXs8/bouffalant.png"
-  },
-  {
-    "name": "bounsweet",
-    "image": "https://i.ibb.co/1qVpF5X/bounsweet.png"
-  },
-  {
-    "name": "braixen",
-    "image": "https://i.ibb.co/pXrw0LP/braixen.png"
-  },
-  {
-    "name": "braviary",
-    "image": "https://i.ibb.co/sQgjvNv/braviary.png"
-  },
-  {
-    "name": "breloom",
-    "image": "https://i.ibb.co/84dFG7q/breloom.png"
-  },
-  {
-    "name": "brionne",
-    "image": "https://i.ibb.co/nmKvsmQ/brionne.png"
-  },
-  {
-    "name": "bronzong",
-    "image": "https://i.ibb.co/zVjVzbg/bronzong.png"
-  },
-  {
-    "name": "bronzor",
-    "image": "https://i.ibb.co/fQrDfZm/bronzor.png"
-  },
-  {
-    "name": "bruxish",
-    "image": "https://i.ibb.co/MVTbh7B/bruxish.png"
-  },
-  {
-    "name": "budew",
-    "image": "https://i.ibb.co/VWT5mHt/budew.png"
-  },
-  {
-    "name": "buizel",
-    "image": "https://i.ibb.co/vXrKhMb/buizel.png"
-  },
-  {
     "name": "bulbasaur",
-    "image": "https://i.ibb.co/XjTH8yz/bulbasaur.png"
-  },
-  {
-    "name": "buneary",
-    "image": "https://i.ibb.co/hVWTFFH/buneary.png"
-  },
-  {
-    "name": "bunnelby",
-    "image": "https://i.ibb.co/s9cnnn5/bunnelby.png"
-  },
-  {
-    "name": "burmy-plant",
-    "image": "https://i.ibb.co/XymJMCd/burmy-plant.png"
-  },
-  {
-    "name": "butterfree",
-    "image": "https://i.ibb.co/jDRtChz/butterfree.png"
-  },
-  {
-    "name": "buzzwole",
-    "image": "https://i.ibb.co/4jKR4Qk/buzzwole.png"
-  },
-  {
-    "name": "cacnea",
-    "image": "https://i.ibb.co/GHyh19C/cacnea.png"
-  },
-  {
-    "name": "cacturne",
-    "image": "https://i.ibb.co/mRdLwYw/cacturne.png"
-  },
-  {
-    "name": "calyrex",
-    "image": "https://i.ibb.co/vDDnNbZ/calyrex.png"
-  },
-  {
-    "name": "camerupt",
-    "image": "https://i.ibb.co/jkHYm1x/camerupt.png"
-  },
-  {
-    "name": "carbink",
-    "image": "https://i.ibb.co/5KSgk1R/carbink.png"
-  },
-  {
-    "name": "carkol",
-    "image": "https://i.ibb.co/Jq909fD/carkol.png"
-  },
-  {
-    "name": "carnivine",
-    "image": "https://i.ibb.co/xDH0TJC/carnivine.png"
-  },
-  {
-    "name": "carracosta",
-    "image": "https://i.ibb.co/VWBBdw6/carracosta.png"
-  },
-  {
-    "name": "carvanha",
-    "image": "https://i.ibb.co/LxgsF85/carvanha.png"
-  },
-  {
-    "name": "cascoon",
-    "image": "https://i.ibb.co/RYMjz4W/cascoon.png"
-  },
-  {
-    "name": "castform",
-    "image": "https://i.ibb.co/tpbyPdS/castform.png"
-  },
-  {
-    "name": "caterpie",
-    "image": "https://i.ibb.co/XjXZMG3/caterpie.png"
-  },
-  {
-    "name": "celebi",
-    "image": "https://i.ibb.co/BKgKymN/celebi.png"
-  },
-  {
-    "name": "celesteela",
-    "image": "https://i.ibb.co/60hffBZ/celesteela.png"
-  },
-  {
-    "name": "centiskorch",
-    "image": "https://i.ibb.co/jL1sz2r/centiskorch.png"
-  },
-  {
-    "name": "chandelure",
-    "image": "https://i.ibb.co/LpCvHbj/chandelure.png"
-  },
-  {
-    "name": "chansey",
-    "image": "https://i.ibb.co/z8XRMB2/chansey.png"
-  },
-  {
-    "name": "charizard",
-    "image": "https://i.ibb.co/vB9tCLP/charizard.png"
-  },
-  {
-    "name": "charjabug",
-    "image": "https://i.ibb.co/zNGY8rn/charjabug.png"
-  },
-  {
-    "name": "charmander",
-    "image": "https://i.ibb.co/98CkZ78/charmander.png"
-  },
-  {
-    "name": "charmeleon",
-    "image": "https://i.ibb.co/SQdgJft/charmeleon.png"
-  },
-  {
-    "name": "chatot",
-    "image": "https://i.ibb.co/GWFbdy3/chatot.png"
-  },
-  {
-    "name": "cherrim-overcast",
-    "image": "https://i.ibb.co/ZdFcbTM/cherrim-overcast.png"
-  },
-  {
-    "name": "cherubi",
-    "image": "https://i.ibb.co/LvswLKH/cherubi.png"
-  },
-  {
-    "name": "chesnaught",
-    "image": "https://i.ibb.co/0qXPBkk/chesnaught.png"
-  },
-  {
-    "name": "chespin",
-    "image": "https://i.ibb.co/zZpkTwJ/chespin.png"
-  },
-  {
-    "name": "chewtle",
-    "image": "https://i.ibb.co/61HVzBq/chewtle.png"
-  },
-  {
-    "name": "chikorita",
-    "image": "https://i.ibb.co/CvPGChT/chikorita.png"
-  },
-  {
-    "name": "chimchar",
-    "image": "https://i.ibb.co/jMgtRLq/chimchar.png"
-  },
-  {
-    "name": "chimecho",
-    "image": "https://i.ibb.co/HhLTjm7/chimecho.png"
-  },
-  {
-    "name": "chinchou",
-    "image": "https://i.ibb.co/1dCpXmd/chinchou.png"
-  },
-  {
-    "name": "chingling",
-    "image": "https://i.ibb.co/PWNKQpG/chingling.png"
-  },
-  {
-    "name": "cinccino",
-    "image": "https://i.ibb.co/2PJkxVb/cinccino.png"
-  },
-  {
-    "name": "cinderace",
-    "image": "https://i.ibb.co/z2mxQpg/cinderace.png"
-  },
-  {
-    "name": "clamperl",
-    "image": "https://i.ibb.co/WP4cFDc/clamperl.png"
-  },
-  {
-    "name": "clauncher",
-    "image": "https://i.ibb.co/qMHTr1n/clauncher.png"
-  },
-  {
-    "name": "clawitzer",
-    "image": "https://i.ibb.co/DGWjCLr/clawitzer.png"
-  },
-  {
-    "name": "claydol",
-    "image": "https://i.ibb.co/GQ1zHvd/claydol.png"
-  },
-  {
-    "name": "clefable",
-    "image": "https://i.ibb.co/KWwr0P1/clefable.png"
-  },
-  {
-    "name": "clefairy",
-    "image": "https://i.ibb.co/zrT04kq/clefairy.png"
-  },
-  {
-    "name": "cleffa",
-    "image": "https://i.ibb.co/ydGY60y/cleffa.png"
-  },
-  {
-    "name": "clobbopus",
-    "image": "https://i.ibb.co/qJ4HP75/clobbopus.png"
-  },
-  {
-    "name": "cloyster",
-    "image": "https://i.ibb.co/HNbH4c7/cloyster.png"
-  },
-  {
-    "name": "coalossal",
-    "image": "https://i.ibb.co/RBjMX7x/coalossal.png"
-  },
-  {
-    "name": "cobalion",
-    "image": "https://i.ibb.co/xM758M1/cobalion.png"
-  },
-  {
-    "name": "cofagrigus",
-    "image": "https://i.ibb.co/vLSWbn3/cofagrigus.png"
-  },
-  {
-    "name": "combee",
-    "image": "https://i.ibb.co/162pyrj/combee.png"
-  },
-  {
-    "name": "combusken",
-    "image": "https://i.ibb.co/fN0TCYV/combusken.png"
-  },
-  {
-    "name": "comfey",
-    "image": "https://i.ibb.co/54pB8Mx/comfey.png"
-  },
-  {
-    "name": "conkeldurr",
-    "image": "https://i.ibb.co/KqtVf74/conkeldurr.png"
-  },
-  {
-    "name": "copperajah",
-    "image": "https://i.ibb.co/6BgRjnZ/copperajah.png"
-  },
-  {
-    "name": "corphish",
-    "image": "https://i.ibb.co/n80dhNq/corphish.png"
-  },
-  {
-    "name": "corsola",
-    "image": "https://i.ibb.co/gym9x0P/corsola.png"
-  },
-  {
-    "name": "corviknight",
-    "image": "https://i.ibb.co/Jy8y0Qr/corviknight.png"
-  },
-  {
-    "name": "corvisquire",
-    "image": "https://i.ibb.co/GRmWn49/corvisquire.png"
-  },
-  {
-    "name": "cosmoem",
-    "image": "https://i.ibb.co/P1YsZXQ/cosmoem.png"
-  },
-  {
-    "name": "cosmog",
-    "image": "https://i.ibb.co/k3T10d3/cosmog.png"
-  },
-  {
-    "name": "cottonee",
-    "image": "https://i.ibb.co/rbT42CQ/cottonee.png"
-  },
-  {
-    "name": "crabominable",
-    "image": "https://i.ibb.co/JKTdtrc/crabominable.png"
-  },
-  {
-    "name": "crabrawler",
-    "image": "https://i.ibb.co/YRYM05b/crabrawler.png"
-  },
-  {
-    "name": "cradily",
-    "image": "https://i.ibb.co/bWBLSZQ/cradily.png"
-  },
-  {
-    "name": "cramorant",
-    "image": "https://i.ibb.co/2FrssPc/cramorant.png"
-  },
-  {
-    "name": "cranidos",
-    "image": "https://i.ibb.co/sJ2fKJm/cranidos.png"
-  },
-  {
-    "name": "crawdaunt",
-    "image": "https://i.ibb.co/WDCFRW7/crawdaunt.png"
-  },
-  {
-    "name": "cresselia",
-    "image": "https://i.ibb.co/3FXv89g/cresselia.png"
-  },
-  {
-    "name": "croagunk",
-    "image": "https://i.ibb.co/SKrg4Mc/croagunk.png"
-  },
-  {
-    "name": "crobat",
-    "image": "https://i.ibb.co/XFRwWTc/crobat.png"
-  },
-  {
-    "name": "croconaw",
-    "image": "https://i.ibb.co/TtyJNSd/croconaw.png"
-  },
-  {
-    "name": "crustle",
-    "image": "https://i.ibb.co/GPbtK8q/crustle.png"
-  },
-  {
-    "name": "cryogonal",
-    "image": "https://i.ibb.co/fpCscgZ/cryogonal.png"
-  },
-  {
-    "name": "cubchoo",
-    "image": "https://i.ibb.co/Pjn1GwP/cubchoo.png"
-  },
-  {
-    "name": "cubone",
-    "image": "https://i.ibb.co/GHGstKL/cubone.png"
-  },
-  {
-    "name": "cufant",
-    "image": "https://i.ibb.co/gSLMBrK/cufant.png"
-  },
-  {
-    "name": "cursola",
-    "image": "https://i.ibb.co/3Mdkr25/cursola.png"
-  },
-  {
-    "name": "cutiefly",
-    "image": "https://i.ibb.co/gPkP3yx/cutiefly.png"
-  },
-  {
-    "name": "cyndaquil",
-    "image": "https://i.ibb.co/nzX0dSR/cyndaquil.png"
-  },
-  {
-    "name": "darkrai",
-    "image": "https://i.ibb.co/c8Df1FZ/darkrai.png"
-  },
-  {
-    "name": "darmanitan-standard",
-    "image": "https://i.ibb.co/5T1Tmkw/darmanitan-standard.png"
-  },
-  {
-    "name": "dartrix",
-    "image": "https://i.ibb.co/5GNkZNx/dartrix.png"
-  },
-  {
-    "name": "darumaka",
-    "image": "https://i.ibb.co/jkxMDZG/darumaka.png"
-  },
-  {
-    "name": "decidueye",
-    "image": "https://i.ibb.co/6mHwNfJ/decidueye.png"
-  },
-  {
-    "name": "dedenne",
-    "image": "https://i.ibb.co/kSwhqC7/dedenne.png"
-  },
-  {
-    "name": "deerling-spring",
-    "image": "https://i.ibb.co/XLbpSWx/deerling-spring.png"
-  },
-  {
-    "name": "deino",
-    "image": "https://i.ibb.co/0yxFBWN/deino.png"
-  },
-  {
-    "name": "delcatty",
-    "image": "https://i.ibb.co/9NTvydK/delcatty.png"
-  },
-  {
-    "name": "delibird",
-    "image": "https://i.ibb.co/R2k81ZH/delibird.png"
-  },
-  {
-    "name": "delphox",
-    "image": "https://i.ibb.co/jLHGdB3/delphox.png"
-  },
-  {
-    "name": "deoxys-normal",
-    "image": "https://i.ibb.co/PxKxT3r/deoxys-normal.png"
-  },
-  {
-    "name": "dewgong",
-    "image": "https://i.ibb.co/ChQS4zf/dewgong.png"
-  },
-  {
-    "name": "dewott",
-    "image": "https://i.ibb.co/NrLY604/dewott.png"
-  },
-  {
-    "name": "dewpider",
-    "image": "https://i.ibb.co/5Bp91fZ/dewpider.png"
-  },
-  {
-    "name": "dhelmise",
-    "image": "https://i.ibb.co/0BkwyCR/dhelmise.png"
-  },
-  {
-    "name": "dialga",
-    "image": "https://i.ibb.co/mvf7QtW/dialga.png"
-  },
-  {
-    "name": "diancie",
-    "image": "https://i.ibb.co/LQWPMmv/diancie.png"
-  },
-  {
-    "name": "diggersby",
-    "image": "https://i.ibb.co/MMZF6jb/diggersby.png"
-  },
-  {
-    "name": "diglett",
-    "image": "https://i.ibb.co/TKJDBXm/diglett.png"
-  },
-  {
-    "name": "ditto",
-    "image": "https://i.ibb.co/tZ5YmvX/ditto.png"
-  },
-  {
-    "name": "dodrio",
-    "image": "https://i.ibb.co/Zf7735W/dodrio.png"
-  },
-  {
-    "name": "doduo",
-    "image": "https://i.ibb.co/xh6KW65/doduo.png"
-  },
-  {
-    "name": "donphan",
-    "image": "https://i.ibb.co/JqJX72n/donphan.png"
-  },
-  {
-    "name": "dottler",
-    "image": "https://i.ibb.co/BC0cJns/dottler.png"
-  },
-  {
-    "name": "doublade",
-    "image": "https://i.ibb.co/p4nQwMN/doublade.png"
-  },
-  {
-    "name": "dracovish",
-    "image": "https://i.ibb.co/1L4hs6B/dracovish.png"
-  },
-  {
-    "name": "dracozolt",
-    "image": "https://i.ibb.co/SXjyt2G/dracozolt.png"
-  },
-  {
-    "name": "dragalge",
-    "image": "https://i.ibb.co/LgL4gMc/dragalge.png"
-  },
-  {
-    "name": "dragapult",
-    "image": "https://i.ibb.co/k2wLytf/dragapult.png"
-  },
-  {
-    "name": "dragonair",
-    "image": "https://i.ibb.co/gy0jJ1V/dragonair.png"
-  },
-  {
-    "name": "dragonite",
-    "image": "https://i.ibb.co/YZ254cL/dragonite.png"
-  },
-  {
-    "name": "drakloak",
-    "image": "https://i.ibb.co/BrfV8Y1/drakloak.png"
-  },
-  {
-    "name": "drampa",
-    "image": "https://i.ibb.co/0V6cv4C/drampa.png"
-  },
-  {
-    "name": "drapion",
-    "image": "https://i.ibb.co/84w78RS/drapion.png"
-  },
-  {
-    "name": "dratini",
-    "image": "https://i.ibb.co/2MYLzXZ/dratini.png"
-  },
-  {
-    "name": "drednaw",
-    "image": "https://i.ibb.co/6WzGBBm/drednaw.png"
-  },
-  {
-    "name": "dreepy",
-    "image": "https://i.ibb.co/pXWbcnf/dreepy.png"
-  },
-  {
-    "name": "drifblim",
-    "image": "https://i.ibb.co/rkBycjk/drifblim.png"
-  },
-  {
-    "name": "drifloon",
-    "image": "https://i.ibb.co/mFGP6St/drifloon.png"
-  },
-  {
-    "name": "drilbur",
-    "image": "https://i.ibb.co/pX92Gjr/drilbur.png"
-  },
-  {
-    "name": "drizzile",
-    "image": "https://i.ibb.co/Jzcp2Cq/drizzile.png"
-  },
-  {
-    "name": "drowzee",
-    "image": "https://i.ibb.co/qyQKLvs/drowzee.png"
-  },
-  {
-    "name": "druddigon",
-    "image": "https://i.ibb.co/4tVRCfW/druddigon.png"
-  },
-  {
-    "name": "dubwool",
-    "image": "https://i.ibb.co/QJFnBCG/dubwool.png"
-  },
-  {
-    "name": "ducklett",
-    "image": "https://i.ibb.co/kGDBQ2b/ducklett.png"
-  },
-  {
-    "name": "dugtrio",
-    "image": "https://i.ibb.co/dm7T4Wk/dugtrio.png"
-  },
-  {
-    "name": "dunsparce",
-    "image": "https://i.ibb.co/Jj62CSY/dunsparce.png"
-  },
-  {
-    "name": "duosion",
-    "image": "https://i.ibb.co/1TkB2kg/duosion.png"
-  },
-  {
-    "name": "duraludon",
-    "image": "https://i.ibb.co/KzQCh0H/duraludon.png"
-  },
-  {
-    "name": "durant",
-    "image": "https://i.ibb.co/52y8myW/durant.png"
-  },
-  {
-    "name": "dusclops",
-    "image": "https://i.ibb.co/7gHnBq4/dusclops.png"
-  },
-  {
-    "name": "dusknoir",
-    "image": "https://i.ibb.co/yNqcJYp/dusknoir.png"
-  },
-  {
-    "name": "duskull",
-    "image": "https://i.ibb.co/Pw0vH2N/duskull.png"
-  },
-  {
-    "name": "dustox",
-    "image": "https://i.ibb.co/vhpPyxN/dustox.png"
-  },
-  {
-    "name": "dwebble",
-    "image": "https://i.ibb.co/QDRmRVh/dwebble.png"
-  },
-  {
-    "name": "eelektrik",
-    "image": "https://i.ibb.co/5K3gkfx/eelektrik.png"
-  },
-  {
-    "name": "eelektross",
-    "image": "https://i.ibb.co/bb5GrwM/eelektross.png"
-  },
-  {
-    "name": "eevee",
-    "image": "https://i.ibb.co/FsmwHxF/eevee.png"
-  },
-  {
-    "name": "eiscue-ice",
-    "image": "https://i.ibb.co/qJmccSm/eiscue-ice.png"
-  },
-  {
-    "name": "ekans",
-    "image": "https://i.ibb.co/6Ykr7v9/ekans.png"
-  },
-  {
-    "name": "eldegoss",
-    "image": "https://i.ibb.co/b1LJ0kW/eldegoss.png"
-  },
-  {
-    "name": "electabuzz",
-    "image": "https://i.ibb.co/9sGNkPp/electabuzz.png"
-  },
-  {
-    "name": "electivire",
-    "image": "https://i.ibb.co/ZJ4R4wt/electivire.png"
-  },
-  {
-    "name": "electrike",
-    "image": "https://i.ibb.co/rxwzC9D/electrike.png"
-  },
-  {
-    "name": "electrode",
-    "image": "https://i.ibb.co/Cn3JTks/electrode.png"
-  },
-  {
-    "name": "elekid",
-    "image": "https://i.ibb.co/Tw1DWsk/elekid.png"
-  },
-  {
-    "name": "elgyem",
-    "image": "https://i.ibb.co/Vw1s7wg/elgyem.png"
-  },
-  {
-    "name": "emboar",
-    "image": "https://i.ibb.co/y8HtzBc/emboar.png"
-  },
-  {
-    "name": "emolga",
-    "image": "https://i.ibb.co/60zgWwW/emolga.png"
-  },
-  {
-    "name": "empoleon",
-    "image": "https://i.ibb.co/cQTq67C/empoleon.png"
-  },
-  {
-    "name": "entei",
-    "image": "https://i.ibb.co/b1vB6hV/entei.png"
-  },
-  {
-    "name": "escavalier",
-    "image": "https://i.ibb.co/LgYztTD/escavalier.png"
-  },
-  {
-    "name": "espeon",
-    "image": "https://i.ibb.co/7zbmp5R/espeon.png"
-  },
-  {
-    "name": "espurr",
-    "image": "https://i.ibb.co/18n7XGH/espurr.png"
-  },
-  {
-    "name": "eternatus",
-    "image": "https://i.ibb.co/41rPnHw/eternatus.png"
-  },
-  {
-    "name": "excadrill",
-    "image": "https://i.ibb.co/W00f7gP/excadrill.png"
-  },
-  {
-    "name": "exeggcute",
-    "image": "https://i.ibb.co/W39GsQ6/exeggcute.png"
-  },
-  {
-    "name": "exeggutor",
-    "image": "https://i.ibb.co/VjLRMTc/exeggutor.png"
-  },
-  {
-    "name": "exploud",
-    "image": "https://i.ibb.co/F5H7Pcd/exploud.png"
-  },
-  {
-    "name": "falinks",
-    "image": "https://i.ibb.co/L1Bv4xV/falinks.png"
-  },
-  {
-    "name": "farfetchd",
-    "image": "https://i.ibb.co/NWQpNjG/farfetchd.png"
-  },
-  {
-    "name": "fearow",
-    "image": "https://i.ibb.co/88LV3Jf/fearow.png"
-  },
-  {
-    "name": "feebas",
-    "image": "https://i.ibb.co/RDKw6zC/feebas.png"
-  },
-  {
-    "name": "fennekin",
-    "image": "https://i.ibb.co/fpMJ8dH/fennekin.png"
-  },
-  {
-    "name": "feraligatr",
-    "image": "https://i.ibb.co/RPzThwv/feraligatr.png"
-  },
-  {
-    "name": "ferroseed",
-    "image": "https://i.ibb.co/tMcNwhX/ferroseed.png"
-  },
-  {
-    "name": "ferrothorn",
-    "image": "https://i.ibb.co/GkfB4gZ/ferrothorn.png"
-  },
-  {
-    "name": "finneon",
-    "image": "https://i.ibb.co/9n4XqLc/finneon.png"
-  },
-  {
-    "name": "flaaffy",
-    "image": "https://i.ibb.co/DwgNgW4/flaaffy.png"
-  },
-  {
-    "name": "flabebe-red",
-    "image": "https://i.ibb.co/jW4JdWc/flabebe-red.png"
-  },
-  {
-    "name": "flapple",
-    "image": "https://i.ibb.co/DD2v0zH/flapple.png"
-  },
-  {
-    "name": "flareon",
-    "image": "https://i.ibb.co/0ywGQSH/flareon.png"
-  },
-  {
-    "name": "fletchinder",
-    "image": "https://i.ibb.co/CmsrYTw/fletchinder.png"
-  },
-  {
-    "name": "fletchling",
-    "image": "https://i.ibb.co/kMVfyxQ/fletchling.png"
-  },
-  {
-    "name": "floatzel",
-    "image": "https://i.ibb.co/Wp6LtvD/floatzel.png"
-  },
-  {
-    "name": "floette-red",
-    "image": "https://i.ibb.co/q0PnB02/floette-red.png"
-  },
-  {
-    "name": "florges-red",
-    "image": "https://i.ibb.co/4SwycV5/florges-red.png"
-  },
-  {
-    "name": "flygon",
-    "image": "https://i.ibb.co/JmssGvY/flygon.png"
-  },
-  {
-    "name": "fomantis",
-    "image": "https://i.ibb.co/R0zBHFZ/fomantis.png"
-  },
-  {
-    "name": "foongus",
-    "image": "https://i.ibb.co/W5GLfWp/foongus.png"
-  },
-  {
-    "name": "forretress",
-    "image": "https://i.ibb.co/Kq7ztG4/forretress.png"
-  },
-  {
-    "name": "fraxure",
-    "image": "https://i.ibb.co/p1H0JxH/fraxure.png"
-  },
-  {
-    "name": "frillish",
-    "image": "https://i.ibb.co/D5SKPDh/frillish.png"
-  },
-  {
-    "name": "froakie",
-    "image": "https://i.ibb.co/f0GxZvz/froakie.png"
-  },
-  {
-    "name": "frogadier",
-    "image": "https://i.ibb.co/q9VKpf3/frogadier.png"
-  },
-  {
-    "name": "froslass",
-    "image": "https://i.ibb.co/8bNKT5b/froslass.png"
-  },
-  {
-    "name": "frosmoth",
-    "image": "https://i.ibb.co/GVKg63w/frosmoth.png"
-  },
-  {
-    "name": "furfrou-natural",
-    "image": "https://i.ibb.co/2dMR0f3/furfrou-natural.png"
-  },
-  {
-    "name": "furret",
-    "image": "https://i.ibb.co/dWRtHcS/furret.png"
-  },
-  {
-    "name": "gabite",
-    "image": "https://i.ibb.co/S0Pdh6G/gabite.png"
-  },
-  {
-    "name": "gallade",
-    "image": "https://i.ibb.co/VVjwmKJ/gallade.png"
-  },
-  {
-    "name": "galvantula",
-    "image": "https://i.ibb.co/9wwP7Bc/galvantula.png"
-  },
-  {
-    "name": "garbodor",
-    "image": "https://i.ibb.co/5rwYFgt/garbodor.png"
-  },
-  {
-    "name": "garchomp",
-    "image": "https://i.ibb.co/MkdCtQM/garchomp.png"
-  },
-  {
-    "name": "gardevoir",
-    "image": "https://i.ibb.co/HzxX9xD/gardevoir.png"
-  },
-  {
-    "name": "gastly",
-    "image": "https://i.ibb.co/KKj9gqj/gastly.png"
-  },
-  {
-    "name": "gastrodon-west",
-    "image": "https://i.ibb.co/tzrFVKv/gastrodon-west.png"
-  },
-  {
-    "name": "genesect",
-    "image": "https://i.ibb.co/3zMTn0V/genesect.png"
-  },
-  {
-    "name": "gengar",
-    "image": "https://i.ibb.co/cwdQL7f/gengar.png"
-  },
-  {
-    "name": "geodude",
-    "image": "https://i.ibb.co/xFTBCQv/geodude.png"
-  },
-  {
-    "name": "gible",
-    "image": "https://i.ibb.co/HHdJH2J/gible.png"
-  },
-  {
-    "name": "gigalith",
-    "image": "https://i.ibb.co/d6XzBjn/gigalith.png"
-  },
-  {
-    "name": "girafarig",
-    "image": "https://i.ibb.co/kHYzsQM/girafarig.png"
-  },
-  {
-    "name": "giratina-altered",
-    "image": "https://i.ibb.co/PFhP5Lv/giratina-altered.png"
-  },
-  {
-    "name": "glaceon",
-    "image": "https://i.ibb.co/PNQT5wY/glaceon.png"
-  },
-  {
-    "name": "glalie",
-    "image": "https://i.ibb.co/1Jz6bN7/glalie.png"
-  },
-  {
-    "name": "glameow",
-    "image": "https://i.ibb.co/dMFpZ5m/glameow.png"
-  },
-  {
-    "name": "glastrier",
-    "image": "https://i.ibb.co/B4p3SrN/glastrier.png"
-  },
-  {
-    "name": "gligar",
-    "image": "https://i.ibb.co/t4NLHkd/gligar.png"
-  },
-  {
-    "name": "gliscor",
-    "image": "https://i.ibb.co/0ZJcKPX/gliscor.png"
-  },
-  {
-    "name": "gloom",
-    "image": "https://i.ibb.co/LZKm19r/gloom.png"
-  },
-  {
-    "name": "gogoat",
-    "image": "https://i.ibb.co/Y0YfRNc/gogoat.png"
-  },
-  {
-    "name": "golbat",
-    "image": "https://i.ibb.co/KK6k5F9/golbat.png"
-  },
-  {
-    "name": "goldeen",
-    "image": "https://i.ibb.co/0Dk20pZ/goldeen.png"
-  },
-  {
-    "name": "golduck",
-    "image": "https://i.ibb.co/fxm3H1S/golduck.png"
-  },
-  {
-    "name": "golem",
-    "image": "https://i.ibb.co/0JNZYcR/golem.png"
-  },
-  {
-    "name": "golett",
-    "image": "https://i.ibb.co/v1cnWHd/golett.png"
-  },
-  {
-    "name": "golisopod",
-    "image": "https://i.ibb.co/tLPCXGt/golisopod.png"
-  },
-  {
-    "name": "golurk",
-    "image": "https://i.ibb.co/F84grPd/golurk.png"
-  },
-  {
-    "name": "goodra",
-    "image": "https://i.ibb.co/Qc2dFmg/goodra.png"
-  },
-  {
-    "name": "goomy",
-    "image": "https://i.ibb.co/XyZFkky/goomy.png"
-  },
-  {
-    "name": "gorebyss",
-    "image": "https://i.ibb.co/prs5WpC/gorebyss.png"
-  },
-  {
-    "name": "gossifleur",
-    "image": "https://i.ibb.co/1JXM1Bc/gossifleur.png"
-  },
-  {
-    "name": "gothita",
-    "image": "https://i.ibb.co/C8mz6BM/gothita.png"
-  },
-  {
-    "name": "gothitelle",
-    "image": "https://i.ibb.co/MB5KTVr/gothitelle.png"
-  },
-  {
-    "name": "gothorita",
-    "image": "https://i.ibb.co/D88LpcB/gothorita.png"
-  },
-  {
-    "name": "gourgeist-average",
-    "image": "https://i.ibb.co/BcsDjwj/gourgeist-average.png"
-  },
-  {
-    "name": "granbull",
-    "image": "https://i.ibb.co/C0wtwb9/granbull.png"
-  },
-  {
-    "name": "grapploct",
-    "image": "https://i.ibb.co/4VrzHB7/grapploct.png"
-  },
-  {
-    "name": "graveler",
-    "image": "https://i.ibb.co/W62wW24/graveler.png"
-  },
-  {
-    "name": "greedent",
-    "image": "https://i.ibb.co/HXsCSmb/greedent.png"
-  },
-  {
-    "name": "greninja",
-    "image": "https://i.ibb.co/mhx0JS0/greninja.png"
-  },
-  {
-    "name": "grimer",
-    "image": "https://i.ibb.co/wBHY4dF/grimer.png"
-  },
-  {
-    "name": "grimmsnarl",
-    "image": "https://i.ibb.co/2c1dV9L/grimmsnarl.png"
-  },
-  {
-    "name": "grookey",
-    "image": "https://i.ibb.co/tXW69yY/grookey.png"
-  },
-  {
-    "name": "grotle",
-    "image": "https://i.ibb.co/GtCTfTn/grotle.png"
-  },
-  {
-    "name": "groudon",
-    "image": "https://i.ibb.co/sCnbk2c/groudon.png"
-  },
-  {
-    "name": "grovyle",
-    "image": "https://i.ibb.co/GHnL7zX/grovyle.png"
-  },
-  {
-    "name": "growlithe",
-    "image": "https://i.ibb.co/8K39fRZ/growlithe.png"
-  },
-  {
-    "name": "grubbin",
-    "image": "https://i.ibb.co/k40T6cF/grubbin.png"
-  },
-  {
-    "name": "grumpig",
-    "image": "https://i.ibb.co/26jYHp9/grumpig.png"
-  },
-  {
-    "name": "gulpin",
-    "image": "https://i.ibb.co/59Y7xwX/gulpin.png"
-  },
-  {
-    "name": "gumshoos",
-    "image": "https://i.ibb.co/pr9Zn7t/gumshoos.png"
-  },
-  {
-    "name": "gurdurr",
-    "image": "https://i.ibb.co/zQZ3CqB/gurdurr.png"
-  },
-  {
-    "name": "guzzlord",
-    "image": "https://i.ibb.co/HdsgpK5/guzzlord.png"
-  },
-  {
-    "name": "gyarados",
-    "image": "https://i.ibb.co/6BRrjxf/gyarados.png"
-  },
-  {
-    "name": "hakamo-o",
-    "image": "https://i.ibb.co/6tqxWX9/hakamo-o.png"
-  },
-  {
-    "name": "happiny",
-    "image": "https://i.ibb.co/z5f9QGh/happiny.png"
-  },
-  {
-    "name": "hariyama",
-    "image": "https://i.ibb.co/6407Fm9/hariyama.png"
-  },
-  {
-    "name": "hatenna",
-    "image": "https://i.ibb.co/8gbvk9W/hatenna.png"
-  },
-  {
-    "name": "hatterene",
-    "image": "https://i.ibb.co/PDktGrY/hatterene.png"
-  },
-  {
-    "name": "hattrem",
-    "image": "https://i.ibb.co/N9BHR3d/hattrem.png"
-  },
-  {
-    "name": "haunter",
-    "image": "https://i.ibb.co/ggpMgWN/haunter.png"
-  },
-  {
-    "name": "hawlucha",
-    "image": "https://i.ibb.co/bzGKF1y/hawlucha.png"
-  },
-  {
-    "name": "haxorus",
-    "image": "https://i.ibb.co/zZXD30R/haxorus.png"
-  },
-  {
-    "name": "heatmor",
-    "image": "https://i.ibb.co/WfJjmn2/heatmor.png"
-  },
-  {
-    "name": "heatran",
-    "image": "https://i.ibb.co/2nV2wWY/heatran.png"
-  },
-  {
-    "name": "heliolisk",
-    "image": "https://i.ibb.co/BG5GQW8/heliolisk.png"
-  },
-  {
-    "name": "helioptile",
-    "image": "https://i.ibb.co/Zz6txK8/helioptile.png"
-  },
-  {
-    "name": "heracross",
-    "image": "https://i.ibb.co/5xGNc34/heracross.png"
-  },
-  {
-    "name": "herdier",
-    "image": "https://i.ibb.co/684LFyN/herdier.png"
-  },
-  {
-    "name": "hippopotas",
-    "image": "https://i.ibb.co/y5CY2WF/hippopotas.png"
-  },
-  {
-    "name": "hippowdon",
-    "image": "https://i.ibb.co/MPWZm1S/hippowdon.png"
-  },
-  {
-    "name": "hitmonchan",
-    "image": "https://i.ibb.co/rtd63sc/hitmonchan.png"
-  },
-  {
-    "name": "hitmonlee",
-    "image": "https://i.ibb.co/KFtkSXc/hitmonlee.png"
-  },
-  {
-    "name": "hitmontop",
-    "image": "https://i.ibb.co/HTYSdV3/hitmontop.png"
-  },
-  {
-    "name": "honchkrow",
-    "image": "https://i.ibb.co/yqnZtgX/honchkrow.png"
-  },
-  {
-    "name": "honedge",
-    "image": "https://i.ibb.co/kD5HhGh/honedge.png"
-  },
-  {
-    "name": "ho-oh",
-    "image": "https://i.ibb.co/HhjsS7X/ho-oh.png"
-  },
-  {
-    "name": "hoopa",
-    "image": "https://i.ibb.co/tQ2jh3q/hoopa.png"
-  },
-  {
-    "name": "hoothoot",
-    "image": "https://i.ibb.co/PNTsMpx/hoothoot.png"
-  },
-  {
-    "name": "hoppip",
-    "image": "https://i.ibb.co/XW65jKF/hoppip.png"
-  },
-  {
-    "name": "horsea",
-    "image": "https://i.ibb.co/BBR9H7s/horsea.png"
-  },
-  {
-    "name": "houndoom",
-    "image": "https://i.ibb.co/khwSfdr/houndoom.png"
-  },
-  {
-    "name": "houndour",
-    "image": "https://i.ibb.co/TRdcQLL/houndour.png"
-  },
-  {
-    "name": "huntail",
-    "image": "https://i.ibb.co/SKKTD1y/huntail.png"
-  },
-  {
-    "name": "hydreigon",
-    "image": "https://i.ibb.co/L5bL3QY/hydreigon.png"
-  },
-  {
-    "name": "hypno",
-    "image": "https://i.ibb.co/fXDmTZn/hypno.png"
-  },
-  {
-    "name": "igglybuff",
-    "image": "https://i.ibb.co/G3Jjghs/igglybuff.png"
-  },
-  {
-    "name": "illumise",
-    "image": "https://i.ibb.co/PNwBkmY/illumise.png"
-  },
-  {
-    "name": "impidimp",
-    "image": "https://i.ibb.co/5GsHDPJ/impidimp.png"
-  },
-  {
-    "name": "incineroar",
-    "image": "https://i.ibb.co/xLWx63L/incineroar.png"
-  },
-  {
-    "name": "indeedee-male",
-    "image": "https://i.ibb.co/K5MQ65p/indeedee-male.png"
-  },
-  {
-    "name": "infernape",
-    "image": "https://i.ibb.co/7Y047x5/infernape.png"
-  },
-  {
-    "name": "inkay",
-    "image": "https://i.ibb.co/wWX0WfL/inkay.png"
-  },
-  {
-    "name": "inteleon",
-    "image": "https://i.ibb.co/jzDkMH7/inteleon.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
   },
   {
     "name": "ivysaur",
-    "image": "https://i.ibb.co/ZYKPQrg/ivysaur.png"
-  },
-  {
-    "name": "jangmo-o",
-    "image": "https://i.ibb.co/FBkXdzY/jangmo-o.png"
-  },
-  {
-    "name": "jellicent",
-    "image": "https://i.ibb.co/DthY47P/jellicent.png"
-  },
-  {
-    "name": "jigglypuff",
-    "image": "https://i.ibb.co/PjGbJXN/jigglypuff.png"
-  },
-  {
-    "name": "jirachi",
-    "image": "https://i.ibb.co/HxGkqqy/jirachi.png"
-  },
-  {
-    "name": "jolteon",
-    "image": "https://i.ibb.co/sHTSNh4/jolteon.png"
-  },
-  {
-    "name": "joltik",
-    "image": "https://i.ibb.co/bW6MjX7/joltik.png"
-  },
-  {
-    "name": "jumpluff",
-    "image": "https://i.ibb.co/sRCsSr9/jumpluff.png"
-  },
-  {
-    "name": "jynx",
-    "image": "https://i.ibb.co/rkS1h2m/jynx.png"
-  },
-  {
-    "name": "kabuto",
-    "image": "https://i.ibb.co/hBppcYQ/kabuto.png"
-  },
-  {
-    "name": "kabutops",
-    "image": "https://i.ibb.co/9vjmFpL/kabutops.png"
-  },
-  {
-    "name": "kadabra",
-    "image": "https://i.ibb.co/BVfpD3c/kadabra.png"
-  },
-  {
-    "name": "kakuna",
-    "image": "https://i.ibb.co/8YRcYQ3/kakuna.png"
-  },
-  {
-    "name": "kangaskhan",
-    "image": "https://i.ibb.co/hH6TJmn/kangaskhan.png"
-  },
-  {
-    "name": "karrablast",
-    "image": "https://i.ibb.co/kyZfdjS/karrablast.png"
-  },
-  {
-    "name": "kartana",
-    "image": "https://i.ibb.co/d7BQxsd/kartana.png"
-  },
-  {
-    "name": "kecleon",
-    "image": "https://i.ibb.co/mD0fLMX/kecleon.png"
-  },
-  {
-    "name": "keldeo-ordinary",
-    "image": "https://i.ibb.co/LdfwGLj/keldeo-ordinary.png"
-  },
-  {
-    "name": "kingdra",
-    "image": "https://i.ibb.co/hckQSQp/kingdra.png"
-  },
-  {
-    "name": "kingler",
-    "image": "https://i.ibb.co/ft5csvP/kingler.png"
-  },
-  {
-    "name": "kirlia",
-    "image": "https://i.ibb.co/jh9PSRq/kirlia.png"
-  },
-  {
-    "name": "klang",
-    "image": "https://i.ibb.co/g9NFTmZ/klang.png"
-  },
-  {
-    "name": "klefki",
-    "image": "https://i.ibb.co/PFbKj8D/klefki.png"
-  },
-  {
-    "name": "klink",
-    "image": "https://i.ibb.co/NxHrQ85/klink.png"
-  },
-  {
-    "name": "klinklang",
-    "image": "https://i.ibb.co/v1xgpRN/klinklang.png"
-  },
-  {
-    "name": "koffing",
-    "image": "https://i.ibb.co/RHskq9v/koffing.png"
-  },
-  {
-    "name": "komala",
-    "image": "https://i.ibb.co/w6k4MrZ/komala.png"
-  },
-  {
-    "name": "kommo-o",
-    "image": "https://i.ibb.co/7YWxpns/kommo-o.png"
-  },
-  {
-    "name": "krabby",
-    "image": "https://i.ibb.co/CwctMTn/krabby.png"
-  },
-  {
-    "name": "kricketot",
-    "image": "https://i.ibb.co/q0BxDsS/kricketot.png"
-  },
-  {
-    "name": "kricketune",
-    "image": "https://i.ibb.co/hM4YpTJ/kricketune.png"
-  },
-  {
-    "name": "krokorok",
-    "image": "https://i.ibb.co/mymBm9g/krokorok.png"
-  },
-  {
-    "name": "krookodile",
-    "image": "https://i.ibb.co/878qSqY/krookodile.png"
-  },
-  {
-    "name": "kubfu",
-    "image": "https://i.ibb.co/8BPf2ZJ/kubfu.png"
-  },
-  {
-    "name": "kyogre",
-    "image": "https://i.ibb.co/tBSFWZV/kyogre.png"
-  },
-  {
-    "name": "kyurem",
-    "image": "https://i.ibb.co/c23Yf84/kyurem.png"
-  },
-  {
-    "name": "lairon",
-    "image": "https://i.ibb.co/dMNcJ40/lairon.png"
-  },
-  {
-    "name": "lampent",
-    "image": "https://i.ibb.co/Khd47F9/lampent.png"
-  },
-  {
-    "name": "landorus-incarnate",
-    "image": "https://i.ibb.co/854GSr4/landorus-incarnate.png"
-  },
-  {
-    "name": "lanturn",
-    "image": "https://i.ibb.co/1r61vXZ/lanturn.png"
-  },
-  {
-    "name": "lapras",
-    "image": "https://i.ibb.co/WvKXP7c/lapras.png"
-  },
-  {
-    "name": "larvesta",
-    "image": "https://i.ibb.co/R4WnJkd/larvesta.png"
-  },
-  {
-    "name": "larvitar",
-    "image": "https://i.ibb.co/CMqKBW0/larvitar.png"
-  },
-  {
-    "name": "latias",
-    "image": "https://i.ibb.co/HLcQQb3/latias.png"
-  },
-  {
-    "name": "latios",
-    "image": "https://i.ibb.co/jVZh4gP/latios.png"
-  },
-  {
-    "name": "leafeon",
-    "image": "https://i.ibb.co/t2fZp2B/leafeon.png"
-  },
-  {
-    "name": "leavanny",
-    "image": "https://i.ibb.co/303x5nZ/leavanny.png"
-  },
-  {
-    "name": "ledian",
-    "image": "https://i.ibb.co/mhzs6pn/ledian.png"
-  },
-  {
-    "name": "ledyba",
-    "image": "https://i.ibb.co/CtNWjGp/ledyba.png"
-  },
-  {
-    "name": "lickilicky",
-    "image": "https://i.ibb.co/db84bVh/lickilicky.png"
-  },
-  {
-    "name": "lickitung",
-    "image": "https://i.ibb.co/85pb38L/lickitung.png"
-  },
-  {
-    "name": "liepard",
-    "image": "https://i.ibb.co/X41SpL9/liepard.png"
-  },
-  {
-    "name": "lileep",
-    "image": "https://i.ibb.co/1b9p5jq/lileep.png"
-  },
-  {
-    "name": "lilligant",
-    "image": "https://i.ibb.co/gJSL7DQ/lilligant.png"
-  },
-  {
-    "name": "lillipup",
-    "image": "https://i.ibb.co/wcbPw6z/lillipup.png"
-  },
-  {
-    "name": "linoone",
-    "image": "https://i.ibb.co/s3tdndX/linoone.png"
-  },
-  {
-    "name": "litleo",
-    "image": "https://i.ibb.co/QMKggXN/litleo.png"
-  },
-  {
-    "name": "litten",
-    "image": "https://i.ibb.co/Gtw64gg/litten.png"
-  },
-  {
-    "name": "litwick",
-    "image": "https://i.ibb.co/YZ7FhJ8/litwick.png"
-  },
-  {
-    "name": "lombre",
-    "image": "https://i.ibb.co/qn0qkTb/lombre.png"
-  },
-  {
-    "name": "lopunny",
-    "image": "https://i.ibb.co/jkR8SJb/lopunny.png"
-  },
-  {
-    "name": "lotad",
-    "image": "https://i.ibb.co/bLfJshg/lotad.png"
-  },
-  {
-    "name": "loudred",
-    "image": "https://i.ibb.co/64tszcQ/loudred.png"
-  },
-  {
-    "name": "lucario",
-    "image": "https://i.ibb.co/nfYqCs2/lucario.png"
-  },
-  {
-    "name": "ludicolo",
-    "image": "https://i.ibb.co/1JdKN8C/ludicolo.png"
-  },
-  {
-    "name": "lugia",
-    "image": "https://i.ibb.co/bzPhYxC/lugia.png"
-  },
-  {
-    "name": "lumineon",
-    "image": "https://i.ibb.co/CWBJH7y/lumineon.png"
-  },
-  {
-    "name": "lunala",
-    "image": "https://i.ibb.co/zhnKrcJ/lunala.png"
-  },
-  {
-    "name": "lunatone",
-    "image": "https://i.ibb.co/JkRJbYw/lunatone.png"
-  },
-  {
-    "name": "lurantis",
-    "image": "https://i.ibb.co/S0cPr1b/lurantis.png"
-  },
-  {
-    "name": "luvdisc",
-    "image": "https://i.ibb.co/9t8mZwX/luvdisc.png"
-  },
-  {
-    "name": "luxio",
-    "image": "https://i.ibb.co/JqcNdqn/luxio.png"
-  },
-  {
-    "name": "luxray",
-    "image": "https://i.ibb.co/bmwczGF/luxray.png"
-  },
-  {
-    "name": "lycanroc-midday",
-    "image": "https://i.ibb.co/sWWrXsB/lycanroc-midday.png"
-  },
-  {
-    "name": "machamp",
-    "image": "https://i.ibb.co/QPjt1C8/machamp.png"
-  },
-  {
-    "name": "machoke",
-    "image": "https://i.ibb.co/wwx80v4/machoke.png"
-  },
-  {
-    "name": "machop",
-    "image": "https://i.ibb.co/DVDMRc8/machop.png"
-  },
-  {
-    "name": "magby",
-    "image": "https://i.ibb.co/QXq6CHv/magby.png"
-  },
-  {
-    "name": "magcargo",
-    "image": "https://i.ibb.co/VjHQSXy/magcargo.png"
-  },
-  {
-    "name": "magearna",
-    "image": "https://i.ibb.co/MCytrW1/magearna.png"
-  },
-  {
-    "name": "magikarp",
-    "image": "https://i.ibb.co/K0sbdgS/magikarp.png"
-  },
-  {
-    "name": "magmar",
-    "image": "https://i.ibb.co/LJv3pq6/magmar.png"
-  },
-  {
-    "name": "magmortar",
-    "image": "https://i.ibb.co/Jrrctgf/magmortar.png"
-  },
-  {
-    "name": "magnemite",
-    "image": "https://i.ibb.co/YtnkTdB/magnemite.png"
-  },
-  {
-    "name": "magneton",
-    "image": "https://i.ibb.co/zm9DNPY/magneton.png"
-  },
-  {
-    "name": "magnezone",
-    "image": "https://i.ibb.co/Gx8gFjQ/magnezone.png"
-  },
-  {
-    "name": "makuhita",
-    "image": "https://i.ibb.co/Dzm0s3N/makuhita.png"
-  },
-  {
-    "name": "malamar",
-    "image": "https://i.ibb.co/Cw5p4St/malamar.png"
-  },
-  {
-    "name": "mamoswine",
-    "image": "https://i.ibb.co/nP7jF13/mamoswine.png"
-  },
-  {
-    "name": "manaphy",
-    "image": "https://i.ibb.co/GRpg8CS/manaphy.png"
-  },
-  {
-    "name": "mandibuzz",
-    "image": "https://i.ibb.co/Zc7pCT5/mandibuzz.png"
-  },
-  {
-    "name": "manectric",
-    "image": "https://i.ibb.co/6gwxSLR/manectric.png"
-  },
-  {
-    "name": "mankey",
-    "image": "https://i.ibb.co/3vPbtS3/mankey.png"
-  },
-  {
-    "name": "mantine",
-    "image": "https://i.ibb.co/7bG1q0P/mantine.png"
-  },
-  {
-    "name": "mantyke",
-    "image": "https://i.ibb.co/R3B4z9f/mantyke.png"
-  },
-  {
-    "name": "maractus",
-    "image": "https://i.ibb.co/k0TTM5J/maractus.png"
-  },
-  {
-    "name": "mareanie",
-    "image": "https://i.ibb.co/QD66WSK/mareanie.png"
-  },
-  {
-    "name": "mareep",
-    "image": "https://i.ibb.co/bzKcQxS/mareep.png"
-  },
-  {
-    "name": "marill",
-    "image": "https://i.ibb.co/S6fCtdX/marill.png"
-  },
-  {
-    "name": "marowak",
-    "image": "https://i.ibb.co/n3CHDs7/marowak.png"
-  },
-  {
-    "name": "marshadow",
-    "image": "https://i.ibb.co/FVPnhh4/marshadow.png"
-  },
-  {
-    "name": "marshtomp",
-    "image": "https://i.ibb.co/V3rfcf5/marshtomp.png"
-  },
-  {
-    "name": "masquerain",
-    "image": "https://i.ibb.co/G91b8nR/masquerain.png"
-  },
-  {
-    "name": "mawile",
-    "image": "https://i.ibb.co/64DW43q/mawile.png"
-  },
-  {
-    "name": "medicham",
-    "image": "https://i.ibb.co/FWvQn2M/medicham.png"
-  },
-  {
-    "name": "meditite",
-    "image": "https://i.ibb.co/swd6Qwg/meditite.png"
-  },
-  {
-    "name": "meganium",
-    "image": "https://i.ibb.co/p1njtqY/meganium.png"
-  },
-  {
-    "name": "melmetal",
-    "image": "https://i.ibb.co/BB4jRz5/melmetal.png"
-  },
-  {
-    "name": "meloetta-aria",
-    "image": "https://i.ibb.co/tP0wMQk/meloetta-aria.png"
-  },
-  {
-    "name": "meltan",
-    "image": "https://i.ibb.co/wsYvrQS/meltan.png"
-  },
-  {
-    "name": "meowstic-male",
-    "image": "https://i.ibb.co/9cXbVD8/meowstic-male.png"
-  },
-  {
-    "name": "meowth",
-    "image": "https://i.ibb.co/XYnTwxj/meowth.png"
-  },
-  {
-    "name": "mesprit",
-    "image": "https://i.ibb.co/YbW0t9s/mesprit.png"
-  },
-  {
-    "name": "metagross",
-    "image": "https://i.ibb.co/Ph6g2b5/metagross.png"
-  },
-  {
-    "name": "metang",
-    "image": "https://i.ibb.co/4sr8Z3J/metang.png"
-  },
-  {
-    "name": "metapod",
-    "image": "https://i.ibb.co/xmb9MCR/metapod.png"
-  },
-  {
-    "name": "mew",
-    "image": "https://i.ibb.co/8YryvG9/mew.png"
-  },
-  {
-    "name": "mewtwo",
-    "image": "https://i.ibb.co/R4cz9dy/mewtwo.png"
-  },
-  {
-    "name": "mienfoo",
-    "image": "https://i.ibb.co/BjG6dSd/mienfoo.png"
-  },
-  {
-    "name": "mienshao",
-    "image": "https://i.ibb.co/875HpPr/mienshao.png"
-  },
-  {
-    "name": "mightyena",
-    "image": "https://i.ibb.co/rMRyNdd/mightyena.png"
-  },
-  {
-    "name": "milcery",
-    "image": "https://i.ibb.co/xjL9P6z/milcery.png"
-  },
-  {
-    "name": "milotic",
-    "image": "https://i.ibb.co/ydSdx5j/milotic.png"
-  },
-  {
-    "name": "miltank",
-    "image": "https://i.ibb.co/F6sn5fF/miltank.png"
-  },
-  {
-    "name": "mime-jr",
-    "image": "https://i.ibb.co/zSKqbJM/mime-jr.png"
-  },
-  {
-    "name": "mimikyu-disguised",
-    "image": "https://i.ibb.co/xmfWHC8/mimikyu-disguised.png"
-  },
-  {
-    "name": "minccino",
-    "image": "https://i.ibb.co/CHCk6Ct/minccino.png"
-  },
-  {
-    "name": "minior-red-meteor",
-    "image": "https://i.ibb.co/vxQ7RLt/minior-red-meteor.png"
-  },
-  {
-    "name": "minun",
-    "image": "https://i.ibb.co/68fbh4H/minun.png"
-  },
-  {
-    "name": "misdreavus",
-    "image": "https://i.ibb.co/gwPbH83/misdreavus.png"
-  },
-  {
-    "name": "mismagius",
-    "image": "https://i.ibb.co/Bgsb8t5/mismagius.png"
-  },
-  {
-    "name": "moltres",
-    "image": "https://i.ibb.co/1JtsTGn/moltres.png"
-  },
-  {
-    "name": "monferno",
-    "image": "https://i.ibb.co/nQQNPMx/monferno.png"
-  },
-  {
-    "name": "morelull",
-    "image": "https://i.ibb.co/sKyv03w/morelull.png"
-  },
-  {
-    "name": "morgrem",
-    "image": "https://i.ibb.co/8YpJbjs/morgrem.png"
-  },
-  {
-    "name": "morpeko-full-belly",
-    "image": "https://i.ibb.co/v4whW27/morpeko-full-belly.png"
-  },
-  {
-    "name": "mothim-plant",
-    "image": "https://i.ibb.co/cvQv972/mothim-plant.png"
-  },
-  {
-    "name": "mr-mime",
-    "image": "https://i.ibb.co/vs0mBZ5/mr-mime.png"
-  },
-  {
-    "name": "mr-rime",
-    "image": "https://i.ibb.co/xjR8Kq0/mr-rime.png"
-  },
-  {
-    "name": "mudbray",
-    "image": "https://i.ibb.co/b3Tnrc0/mudbray.png"
-  },
-  {
-    "name": "mudkip",
-    "image": "https://i.ibb.co/wshtrcd/mudkip.png"
-  },
-  {
-    "name": "mudsdale",
-    "image": "https://i.ibb.co/MD73sVB/mudsdale.png"
-  },
-  {
-    "name": "muk",
-    "image": "https://i.ibb.co/VTZ2dkq/muk.png"
-  },
-  {
-    "name": "munchlax",
-    "image": "https://i.ibb.co/ZWCGWF3/munchlax.png"
-  },
-  {
-    "name": "munna",
-    "image": "https://i.ibb.co/9rZ57sF/munna.png"
-  },
-  {
-    "name": "murkrow",
-    "image": "https://i.ibb.co/cTtZx7g/murkrow.png"
-  },
-  {
-    "name": "musharna",
-    "image": "https://i.ibb.co/yFKwDCj/musharna.png"
-  },
-  {
-    "name": "naganadel",
-    "image": "https://i.ibb.co/s9jkF9x/naganadel.png"
-  },
-  {
-    "name": "natu",
-    "image": "https://i.ibb.co/D9hJWdh/natu.png"
-  },
-  {
-    "name": "necrozma",
-    "image": "https://i.ibb.co/Wg8cXn1/necrozma.png"
-  },
-  {
-    "name": "nickit",
-    "image": "https://i.ibb.co/pd9DCBb/nickit.png"
-  },
-  {
-    "name": "nidoking",
-    "image": "https://i.ibb.co/bgzBXzM/nidoking.png"
-  },
-  {
-    "name": "nidoqueen",
-    "image": "https://i.ibb.co/nR4HNMn/nidoqueen.png"
-  },
-  {
-    "name": "nidoran-f",
-    "image": "https://i.ibb.co/MpYLSYb/nidoran-f.png"
-  },
-  {
-    "name": "nidoran-m",
-    "image": "https://i.ibb.co/Yy8bvNx/nidoran-m.png"
-  },
-  {
-    "name": "nidorina",
-    "image": "https://i.ibb.co/3zkRxSt/nidorina.png"
-  },
-  {
-    "name": "nidorino",
-    "image": "https://i.ibb.co/gDZ9rZH/nidorino.png"
-  },
-  {
-    "name": "nihilego",
-    "image": "https://i.ibb.co/k1c9ZJh/nihilego.png"
-  },
-  {
-    "name": "nincada",
-    "image": "https://i.ibb.co/09x3sQw/nincada.png"
-  },
-  {
-    "name": "ninetales",
-    "image": "https://i.ibb.co/vQ8f4Hg/ninetales.png"
-  },
-  {
-    "name": "ninjask",
-    "image": "https://i.ibb.co/djz6RyJ/ninjask.png"
-  },
-  {
-    "name": "noctowl",
-    "image": "https://i.ibb.co/NNjTK1k/noctowl.png"
-  },
-  {
-    "name": "noibat",
-    "image": "https://i.ibb.co/Jjvd6W8/noibat.png"
-  },
-  {
-    "name": "noivern",
-    "image": "https://i.ibb.co/bWTNTZg/noivern.png"
-  },
-  {
-    "name": "nosepass",
-    "image": "https://i.ibb.co/CB77WhZ/nosepass.png"
-  },
-  {
-    "name": "numel",
-    "image": "https://i.ibb.co/VHNk4nL/numel.png"
-  },
-  {
-    "name": "nuzleaf",
-    "image": "https://i.ibb.co/K6T7tbW/nuzleaf.png"
-  },
-  {
-    "name": "obstagoon",
-    "image": "https://i.ibb.co/RzzRhfT/obstagoon.png"
-  },
-  {
-    "name": "octillery",
-    "image": "https://i.ibb.co/L9HNDC1/octillery.png"
-  },
-  {
-    "name": "oddish",
-    "image": "https://i.ibb.co/xXydPY5/oddish.png"
-  },
-  {
-    "name": "omanyte",
-    "image": "https://i.ibb.co/drKB5mL/omanyte.png"
-  },
-  {
-    "name": "omastar",
-    "image": "https://i.ibb.co/fdvzCfS/omastar.png"
-  },
-  {
-    "name": "onix",
-    "image": "https://i.ibb.co/CzXvVbg/onix.png"
-  },
-  {
-    "name": "oranguru",
-    "image": "https://i.ibb.co/YkpD8VD/oranguru.png"
-  },
-  {
-    "name": "orbeetle",
-    "image": "https://i.ibb.co/gd48WmZ/orbeetle.png"
-  },
-  {
-    "name": "oricorio-baile",
-    "image": "https://i.ibb.co/mNr3RZC/oricorio-baile.png"
-  },
-  {
-    "name": "oshawott",
-    "image": "https://i.ibb.co/hDXK1pd/oshawott.png"
-  },
-  {
-    "name": "pachirisu",
-    "image": "https://i.ibb.co/ccGtY3S/pachirisu.png"
-  },
-  {
-    "name": "palkia",
-    "image": "https://i.ibb.co/tQ4PNrj/palkia.png"
-  },
-  {
-    "name": "palossand",
-    "image": "https://i.ibb.co/pWMtc1n/palossand.png"
-  },
-  {
-    "name": "palpitoad",
-    "image": "https://i.ibb.co/2hNYH0s/palpitoad.png"
-  },
-  {
-    "name": "pancham",
-    "image": "https://i.ibb.co/44PpRzp/pancham.png"
-  },
-  {
-    "name": "pangoro",
-    "image": "https://i.ibb.co/Y881zLS/pangoro.png"
-  },
-  {
-    "name": "panpour",
-    "image": "https://i.ibb.co/72wMw6g/panpour.png"
-  },
-  {
-    "name": "pansage",
-    "image": "https://i.ibb.co/y4R4LcS/pansage.png"
-  },
-  {
-    "name": "pansear",
-    "image": "https://i.ibb.co/4Mgy4CK/pansear.png"
-  },
-  {
-    "name": "paras",
-    "image": "https://i.ibb.co/HNqnVNQ/paras.png"
-  },
-  {
-    "name": "parasect",
-    "image": "https://i.ibb.co/QCprdMY/parasect.png"
-  },
-  {
-    "name": "passimian",
-    "image": "https://i.ibb.co/jzVcSKh/passimian.png"
-  },
-  {
-    "name": "patrat",
-    "image": "https://i.ibb.co/X3PNQyH/patrat.png"
-  },
-  {
-    "name": "pawniard",
-    "image": "https://i.ibb.co/CwXyPC9/pawniard.png"
-  },
-  {
-    "name": "pelipper",
-    "image": "https://i.ibb.co/H4DLTW1/pelipper.png"
-  },
-  {
-    "name": "perrserker",
-    "image": "https://i.ibb.co/v113Xpp/perrserker.png"
-  },
-  {
-    "name": "persian",
-    "image": "https://i.ibb.co/Vq5fMmm/persian.png"
-  },
-  {
-    "name": "petilil",
-    "image": "https://i.ibb.co/ZKVgprn/petilil.png"
-  },
-  {
-    "name": "phanpy",
-    "image": "https://i.ibb.co/16DzMKW/phanpy.png"
-  },
-  {
-    "name": "phantump",
-    "image": "https://i.ibb.co/8YfNwzs/phantump.png"
-  },
-  {
-    "name": "pheromosa",
-    "image": "https://i.ibb.co/Prmq7Yf/pheromosa.png"
-  },
-  {
-    "name": "phione",
-    "image": "https://i.ibb.co/8mN7MDL/phione.png"
-  },
-  {
-    "name": "pichu",
-    "image": "https://i.ibb.co/93Gtyty/pichu.png"
-  },
-  {
-    "name": "pidgeot",
-    "image": "https://i.ibb.co/jfhbCPJ/pidgeot.png"
-  },
-  {
-    "name": "pidgeotto",
-    "image": "https://i.ibb.co/CzmMF2C/pidgeotto.png"
-  },
-  {
-    "name": "pidgey",
-    "image": "https://i.ibb.co/HFKhyvd/pidgey.png"
-  },
-  {
-    "name": "pidove",
-    "image": "https://i.ibb.co/sJqFVT4/pidove.png"
-  },
-  {
-    "name": "pignite",
-    "image": "https://i.ibb.co/q7gxDSM/pignite.png"
-  },
-  {
-    "name": "pikachu",
-    "image": "https://i.ibb.co/QQtWjyj/pikachu.png"
-  },
-  {
-    "name": "pikipek",
-    "image": "https://i.ibb.co/d2KVkFN/pikipek.png"
-  },
-  {
-    "name": "piloswine",
-    "image": "https://i.ibb.co/SsRLT15/piloswine.png"
-  },
-  {
-    "name": "pincurchin",
-    "image": "https://i.ibb.co/K5gZFGs/pincurchin.png"
-  },
-  {
-    "name": "pineco",
-    "image": "https://i.ibb.co/g9yVt3b/pineco.png"
-  },
-  {
-    "name": "pinsir",
-    "image": "https://i.ibb.co/WfcBnRW/pinsir.png"
-  },
-  {
-    "name": "piplup",
-    "image": "https://i.ibb.co/Q9YbVGt/piplup.png"
-  },
-  {
-    "name": "plusle",
-    "image": "https://i.ibb.co/Y7qSmSM/plusle.png"
-  },
-  {
-    "name": "poipole",
-    "image": "https://i.ibb.co/J22MJ3m/poipole.png"
-  },
-  {
-    "name": "politoed",
-    "image": "https://i.ibb.co/9NZsn58/politoed.png"
-  },
-  {
-    "name": "poliwag",
-    "image": "https://i.ibb.co/1n6ZNPv/poliwag.png"
-  },
-  {
-    "name": "poliwhirl",
-    "image": "https://i.ibb.co/XVcX0P5/poliwhirl.png"
-  },
-  {
-    "name": "poliwrath",
-    "image": "https://i.ibb.co/vc3S9vy/poliwrath.png"
-  },
-  {
-    "name": "polteageist-phony",
-    "image": "https://i.ibb.co/WFzyZrp/polteageist-phony.png"
-  },
-  {
-    "name": "ponyta",
-    "image": "https://i.ibb.co/h1B5Whb/ponyta.png"
-  },
-  {
-    "name": "poochyena",
-    "image": "https://i.ibb.co/HC7LqKL/poochyena.png"
-  },
-  {
-    "name": "popplio",
-    "image": "https://i.ibb.co/yVPZTz8/popplio.png"
-  },
-  {
-    "name": "porygon",
-    "image": "https://i.ibb.co/19fYh5P/porygon.png"
-  },
-  {
-    "name": "porygon2",
-    "image": "https://i.ibb.co/s15nLH3/porygon2.png"
-  },
-  {
-    "name": "porygon-z",
-    "image": "https://i.ibb.co/pL3BV7G/porygon-z.png"
-  },
-  {
-    "name": "primarina",
-    "image": "https://i.ibb.co/zhw0yXp/primarina.png"
-  },
-  {
-    "name": "primeape",
-    "image": "https://i.ibb.co/5x7ptJY/primeape.png"
-  },
-  {
-    "name": "prinplup",
-    "image": "https://i.ibb.co/8gk1PnG/prinplup.png"
-  },
-  {
-    "name": "probopass",
-    "image": "https://i.ibb.co/M2ZCw8h/probopass.png"
-  },
-  {
-    "name": "psyduck",
-    "image": "https://i.ibb.co/rMDH9q8/psyduck.png"
-  },
-  {
-    "name": "pumpkaboo-average",
-    "image": "https://i.ibb.co/9wNVz4P/pumpkaboo-average.png"
-  },
-  {
-    "name": "pupitar",
-    "image": "https://i.ibb.co/0jhTQ2c/pupitar.png"
-  },
-  {
-    "name": "purrloin",
-    "image": "https://i.ibb.co/7b8VGqG/purrloin.png"
-  },
-  {
-    "name": "purugly",
-    "image": "https://i.ibb.co/yN0qc3X/purugly.png"
-  },
-  {
-    "name": "pyroar",
-    "image": "https://i.ibb.co/PcGnhkC/pyroar.png"
-  },
-  {
-    "name": "pyukumuku",
-    "image": "https://i.ibb.co/ydx4gqV/pyukumuku.png"
-  },
-  {
-    "name": "quagsire",
-    "image": "https://i.ibb.co/bHH642g/quagsire.png"
-  },
-  {
-    "name": "quilava",
-    "image": "https://i.ibb.co/r3WWqs2/quilava.png"
-  },
-  {
-    "name": "quilladin",
-    "image": "https://i.ibb.co/JH1VzcH/quilladin.png"
-  },
-  {
-    "name": "qwilfish",
-    "image": "https://i.ibb.co/xDDLJDk/qwilfish.png"
-  },
-  {
-    "name": "raboot",
-    "image": "https://i.ibb.co/5jfqy1x/raboot.png"
-  },
-  {
-    "name": "raichu",
-    "image": "https://i.ibb.co/82JvNbs/raichu.png"
-  },
-  {
-    "name": "raikou",
-    "image": "https://i.ibb.co/xHzkGQb/raikou.png"
-  },
-  {
-    "name": "ralts",
-    "image": "https://i.ibb.co/fFxVr5m/ralts.png"
-  },
-  {
-    "name": "rampardos",
-    "image": "https://i.ibb.co/2632swN/rampardos.png"
-  },
-  {
-    "name": "rapidash",
-    "image": "https://i.ibb.co/zQ68XCf/rapidash.png"
-  },
-  {
-    "name": "raticate",
-    "image": "https://i.ibb.co/QYvNF5k/raticate.png"
-  },
-  {
-    "name": "rattata",
-    "image": "https://i.ibb.co/bPFh9N4/rattata.png"
-  },
-  {
-    "name": "rayquaza",
-    "image": "https://i.ibb.co/W0Ptpz5/rayquaza.png"
-  },
-  {
-    "name": "regice",
-    "image": "https://i.ibb.co/X5kRvhs/regice.png"
-  },
-  {
-    "name": "regidrago",
-    "image": "https://i.ibb.co/2sLBWsf/regidrago.png"
-  },
-  {
-    "name": "regieleki",
-    "image": "https://i.ibb.co/0qS9LxR/regieleki.png"
-  },
-  {
-    "name": "regigigas",
-    "image": "https://i.ibb.co/7J43Wvv/regigigas.png"
-  },
-  {
-    "name": "regirock",
-    "image": "https://i.ibb.co/7pjDGYs/regirock.png"
-  },
-  {
-    "name": "registeel",
-    "image": "https://i.ibb.co/2t6dvX4/registeel.png"
-  },
-  {
-    "name": "relicanth",
-    "image": "https://i.ibb.co/pbb7fj1/relicanth.png"
-  },
-  {
-    "name": "remoraid",
-    "image": "https://i.ibb.co/h7nX36L/remoraid.png"
-  },
-  {
-    "name": "reshiram",
-    "image": "https://i.ibb.co/xjDCyGc/reshiram.png"
-  },
-  {
-    "name": "reuniclus",
-    "image": "https://i.ibb.co/CW3SG6B/reuniclus.png"
-  },
-  {
-    "name": "rhydon",
-    "image": "https://i.ibb.co/614vcy9/rhydon.png"
-  },
-  {
-    "name": "rhyhorn",
-    "image": "https://i.ibb.co/ccgnPrj/rhyhorn.png"
-  },
-  {
-    "name": "rhyperior",
-    "image": "https://i.ibb.co/6w5Gq6q/rhyperior.png"
-  },
-  {
-    "name": "ribombee",
-    "image": "https://i.ibb.co/sbDVS7Y/ribombee.png"
-  },
-  {
-    "name": "rillaboom",
-    "image": "https://i.ibb.co/kmwGkPG/rillaboom.png"
-  },
-  {
-    "name": "riolu",
-    "image": "https://i.ibb.co/fN84Cy3/riolu.png"
-  },
-  {
-    "name": "rockruff",
-    "image": "https://i.ibb.co/25M0Rgx/rockruff.png"
-  },
-  {
-    "name": "roggenrola",
-    "image": "https://i.ibb.co/rt9VpS8/roggenrola.png"
-  },
-  {
-    "name": "rolycoly",
-    "image": "https://i.ibb.co/nzx5BDF/rolycoly.png"
-  },
-  {
-    "name": "rookidee",
-    "image": "https://i.ibb.co/zrqxqpC/rookidee.png"
-  },
-  {
-    "name": "roselia",
-    "image": "https://i.ibb.co/XkQrqPC/roselia.png"
-  },
-  {
-    "name": "roserade",
-    "image": "https://i.ibb.co/ZVttXvz/roserade.png"
-  },
-  {
-    "name": "rotom",
-    "image": "https://i.ibb.co/br5RHDw/rotom.png"
-  },
-  {
-    "name": "rowlet",
-    "image": "https://i.ibb.co/f8FxTKc/rowlet.png"
-  },
-  {
-    "name": "rufflet",
-    "image": "https://i.ibb.co/Hn4qfLL/rufflet.png"
-  },
-  {
-    "name": "runerigus",
-    "image": "https://i.ibb.co/kcfQy1j/runerigus.png"
-  },
-  {
-    "name": "sableye",
-    "image": "https://i.ibb.co/KbQ8jgS/sableye.png"
-  },
-  {
-    "name": "salamence",
-    "image": "https://i.ibb.co/bJbVzk8/salamence.png"
-  },
-  {
-    "name": "salandit",
-    "image": "https://i.ibb.co/Cnd54Ly/salandit.png"
-  },
-  {
-    "name": "salazzle",
-    "image": "https://i.ibb.co/JvDfWFC/salazzle.png"
-  },
-  {
-    "name": "samurott",
-    "image": "https://i.ibb.co/hLyjRrQ/samurott.png"
-  },
-  {
-    "name": "sandaconda",
-    "image": "https://i.ibb.co/svRXLBW/sandaconda.png"
-  },
-  {
-    "name": "sandile",
-    "image": "https://i.ibb.co/R08943w/sandile.png"
-  },
-  {
-    "name": "sandshrew",
-    "image": "https://i.ibb.co/vjBNZm7/sandshrew.png"
-  },
-  {
-    "name": "sandslash",
-    "image": "https://i.ibb.co/D12qSfC/sandslash.png"
-  },
-  {
-    "name": "sandygast",
-    "image": "https://i.ibb.co/s2hGyg2/sandygast.png"
-  },
-  {
-    "name": "sawk",
-    "image": "https://i.ibb.co/d4ZCCw3/sawk.png"
-  },
-  {
-    "name": "sawsbuck-spring",
-    "image": "https://i.ibb.co/nsLCdfN/sawsbuck-spring.png"
-  },
-  {
-    "name": "scatterbug-icy-snow",
-    "image": "https://i.ibb.co/dMv1dJ7/scatterbug-icy-snow.png"
-  },
-  {
-    "name": "sceptile",
-    "image": "https://i.ibb.co/RYLw1fP/sceptile.png"
-  },
-  {
-    "name": "scizor",
-    "image": "https://i.ibb.co/f1PP6VW/scizor.png"
-  },
-  {
-    "name": "scolipede",
-    "image": "https://i.ibb.co/qRqt52B/scolipede.png"
-  },
-  {
-    "name": "scorbunny",
-    "image": "https://i.ibb.co/1f81Nc7/scorbunny.png"
-  },
-  {
-    "name": "scrafty",
-    "image": "https://i.ibb.co/pXmkfxP/scrafty.png"
-  },
-  {
-    "name": "scraggy",
-    "image": "https://i.ibb.co/pK50V9s/scraggy.png"
-  },
-  {
-    "name": "scyther",
-    "image": "https://i.ibb.co/cwRL110/scyther.png"
-  },
-  {
-    "name": "seadra",
-    "image": "https://i.ibb.co/NyH8LDt/seadra.png"
-  },
-  {
-    "name": "seaking",
-    "image": "https://i.ibb.co/8MhMD0P/seaking.png"
-  },
-  {
-    "name": "sealeo",
-    "image": "https://i.ibb.co/7yRtpCg/sealeo.png"
-  },
-  {
-    "name": "seedot",
-    "image": "https://i.ibb.co/ph9p97D/seedot.png"
-  },
-  {
-    "name": "seel",
-    "image": "https://i.ibb.co/92knqK8/seel.png"
-  },
-  {
-    "name": "seismitoad",
-    "image": "https://i.ibb.co/1fyCkMm/seismitoad.png"
-  },
-  {
-    "name": "sentret",
-    "image": "https://i.ibb.co/sysJTdw/sentret.png"
-  },
-  {
-    "name": "serperior",
-    "image": "https://i.ibb.co/9VV3Nj5/serperior.png"
-  },
-  {
-    "name": "servine",
-    "image": "https://i.ibb.co/j39xxJg/servine.png"
-  },
-  {
-    "name": "seviper",
-    "image": "https://i.ibb.co/pzB1wYB/seviper.png"
-  },
-  {
-    "name": "sewaddle",
-    "image": "https://i.ibb.co/bbsw1Gs/sewaddle.png"
-  },
-  {
-    "name": "sharpedo",
-    "image": "https://i.ibb.co/TkDx1np/sharpedo.png"
-  },
-  {
-    "name": "shaymin-land",
-    "image": "https://i.ibb.co/yFXZwz3/shaymin-land.png"
-  },
-  {
-    "name": "shedinja",
-    "image": "https://i.ibb.co/0Gt64VJ/shedinja.png"
-  },
-  {
-    "name": "shelgon",
-    "image": "https://i.ibb.co/WK67WM2/shelgon.png"
-  },
-  {
-    "name": "shellder",
-    "image": "https://i.ibb.co/jk9nCnD/shellder.png"
-  },
-  {
-    "name": "shellos-west",
-    "image": "https://i.ibb.co/HVV5WqN/shellos-west.png"
-  },
-  {
-    "name": "shelmet",
-    "image": "https://i.ibb.co/fC0x2nm/shelmet.png"
-  },
-  {
-    "name": "shieldon",
-    "image": "https://i.ibb.co/VJZC2DZ/shieldon.png"
-  },
-  {
-    "name": "shiftry",
-    "image": "https://i.ibb.co/F7Qygk0/shiftry.png"
-  },
-  {
-    "name": "shiinotic",
-    "image": "https://i.ibb.co/x7s1Fw2/shiinotic.png"
-  },
-  {
-    "name": "shinx",
-    "image": "https://i.ibb.co/df8BqnJ/shinx.png"
-  },
-  {
-    "name": "shroomish",
-    "image": "https://i.ibb.co/hV4PQ9S/shroomish.png"
-  },
-  {
-    "name": "shuckle",
-    "image": "https://i.ibb.co/3mCT2Jt/shuckle.png"
-  },
-  {
-    "name": "shuppet",
-    "image": "https://i.ibb.co/3cVZYdW/shuppet.png"
-  },
-  {
-    "name": "sigilyph",
-    "image": "https://i.ibb.co/jyYcDHm/sigilyph.png"
-  },
-  {
-    "name": "silcoon",
-    "image": "https://i.ibb.co/PhLQ6xn/silcoon.png"
-  },
-  {
-    "name": "silicobra",
-    "image": "https://i.ibb.co/TK0pT55/silicobra.png"
-  },
-  {
-    "name": "silvally-normal",
-    "image": "https://i.ibb.co/m88RBDR/silvally-normal.png"
-  },
-  {
-    "name": "simipour",
-    "image": "https://i.ibb.co/gyfvcVN/simipour.png"
-  },
-  {
-    "name": "simisage",
-    "image": "https://i.ibb.co/yS54Czc/simisage.png"
-  },
-  {
-    "name": "simisear",
-    "image": "https://i.ibb.co/BZCsRrd/simisear.png"
-  },
-  {
-    "name": "sinistea-phony",
-    "image": "https://i.ibb.co/bBMn9YX/sinistea-phony.png"
-  },
-  {
-    "name": "sirfetchd",
-    "image": "https://i.ibb.co/4ZBbDb0/sirfetchd.png"
-  },
-  {
-    "name": "sizzlipede",
-    "image": "https://i.ibb.co/DDQQmZy/sizzlipede.png"
-  },
-  {
-    "name": "skarmory",
-    "image": "https://i.ibb.co/n13RPDH/skarmory.png"
-  },
-  {
-    "name": "skiddo",
-    "image": "https://i.ibb.co/T2NZzFj/skiddo.png"
-  },
-  {
-    "name": "skiploom",
-    "image": "https://i.ibb.co/qC2yxSb/skiploom.png"
-  },
-  {
-    "name": "skitty",
-    "image": "https://i.ibb.co/TtZntPh/skitty.png"
-  },
-  {
-    "name": "skorupi",
-    "image": "https://i.ibb.co/s16j8qd/skorupi.png"
-  },
-  {
-    "name": "skrelp",
-    "image": "https://i.ibb.co/hccJCC7/skrelp.png"
-  },
-  {
-    "name": "skuntank",
-    "image": "https://i.ibb.co/BPdWr6F/skuntank.png"
-  },
-  {
-    "name": "skwovet",
-    "image": "https://i.ibb.co/GFJYRKX/skwovet.png"
-  },
-  {
-    "name": "slaking",
-    "image": "https://i.ibb.co/CVcZWCc/slaking.png"
-  },
-  {
-    "name": "slakoth",
-    "image": "https://i.ibb.co/VJjQK58/slakoth.png"
-  },
-  {
-    "name": "sliggoo",
-    "image": "https://i.ibb.co/TwrVrKR/sliggoo.png"
-  },
-  {
-    "name": "slowbro",
-    "image": "https://i.ibb.co/drsSF21/slowbro.png"
-  },
-  {
-    "name": "slowking",
-    "image": "https://i.ibb.co/MshxzFV/slowking.png"
-  },
-  {
-    "name": "slowpoke",
-    "image": "https://i.ibb.co/6PmzgPM/slowpoke.png"
-  },
-  {
-    "name": "slugma",
-    "image": "https://i.ibb.co/tb8qmyZ/slugma.png"
-  },
-  {
-    "name": "slurpuff",
-    "image": "https://i.ibb.co/pQdpz2f/slurpuff.png"
-  },
-  {
-    "name": "smeargle",
-    "image": "https://i.ibb.co/sCTZ2gb/smeargle.png"
-  },
-  {
-    "name": "smoochum",
-    "image": "https://i.ibb.co/6HJM9gT/smoochum.png"
-  },
-  {
-    "name": "sneasel",
-    "image": "https://i.ibb.co/N7Y3Ngk/sneasel.png"
-  },
-  {
-    "name": "snivy",
-    "image": "https://i.ibb.co/52fLT8s/snivy.png"
-  },
-  {
-    "name": "snom",
-    "image": "https://i.ibb.co/frX2kxq/snom.png"
-  },
-  {
-    "name": "snorlax",
-    "image": "https://i.ibb.co/M7WT4rs/snorlax.png"
-  },
-  {
-    "name": "snorunt",
-    "image": "https://i.ibb.co/cLKQRJ2/snorunt.png"
-  },
-  {
-    "name": "snover",
-    "image": "https://i.ibb.co/Jr8XN2f/snover.png"
-  },
-  {
-    "name": "snubbull",
-    "image": "https://i.ibb.co/xFCpP6b/snubbull.png"
-  },
-  {
-    "name": "sobble",
-    "image": "https://i.ibb.co/MVr7vDJ/sobble.png"
-  },
-  {
-    "name": "solgaleo",
-    "image": "https://i.ibb.co/Gknc1nW/solgaleo.png"
-  },
-  {
-    "name": "solosis",
-    "image": "https://i.ibb.co/vH7xgGh/solosis.png"
-  },
-  {
-    "name": "solrock",
-    "image": "https://i.ibb.co/khx8xXC/solrock.png"
-  },
-  {
-    "name": "spearow",
-    "image": "https://i.ibb.co/mzCNnBn/spearow.png"
-  },
-  {
-    "name": "spectrier",
-    "image": "https://i.ibb.co/yfjyNpZ/spectrier.png"
-  },
-  {
-    "name": "spewpa-icy-snow",
-    "image": "https://i.ibb.co/qY1q0Zz/spewpa-icy-snow.png"
-  },
-  {
-    "name": "spheal",
-    "image": "https://i.ibb.co/51WkrHj/spheal.png"
-  },
-  {
-    "name": "spinarak",
-    "image": "https://i.ibb.co/kKb45Hc/spinarak.png"
-  },
-  {
-    "name": "spinda",
-    "image": "https://i.ibb.co/xz8RhvN/spinda.png"
-  },
-  {
-    "name": "spiritomb",
-    "image": "https://i.ibb.co/F39Cdq8/spiritomb.png"
-  },
-  {
-    "name": "spoink",
-    "image": "https://i.ibb.co/30jMScN/spoink.png"
-  },
-  {
-    "name": "spritzee",
-    "image": "https://i.ibb.co/NTFhsGL/spritzee.png"
-  },
-  {
-    "name": "squirtle",
-    "image": "https://i.ibb.co/HGfnZZV/squirtle.png"
-  },
-  {
-    "name": "stakataka",
-    "image": "https://i.ibb.co/HCnvmC3/stakataka.png"
-  },
-  {
-    "name": "stantler",
-    "image": "https://i.ibb.co/FKDPMPt/stantler.png"
-  },
-  {
-    "name": "staraptor",
-    "image": "https://i.ibb.co/ws1769Q/staraptor.png"
-  },
-  {
-    "name": "staravia",
-    "image": "https://i.ibb.co/drX6rvT/staravia.png"
-  },
-  {
-    "name": "starly",
-    "image": "https://i.ibb.co/MVNvcGQ/starly.png"
-  },
-  {
-    "name": "starmie",
-    "image": "https://i.ibb.co/W25dJ6x/starmie.png"
-  },
-  {
-    "name": "staryu",
-    "image": "https://i.ibb.co/ZGqDXxB/staryu.png"
-  },
-  {
-    "name": "steelix",
-    "image": "https://i.ibb.co/L5wkFD5/steelix.png"
-  },
-  {
-    "name": "steenee",
-    "image": "https://i.ibb.co/mbjcdyT/steenee.png"
-  },
-  {
-    "name": "stonjourner",
-    "image": "https://i.ibb.co/rsJcDXP/stonjourner.png"
-  },
-  {
-    "name": "stoutland",
-    "image": "https://i.ibb.co/fnB9QRP/stoutland.png"
-  },
-  {
-    "name": "stufful",
-    "image": "https://i.ibb.co/cCvWf90/stufful.png"
-  },
-  {
-    "name": "stunfisk",
-    "image": "https://i.ibb.co/F5JGrk8/stunfisk.png"
-  },
-  {
-    "name": "stunky",
-    "image": "https://i.ibb.co/Dzqkm4j/stunky.png"
-  },
-  {
-    "name": "sudowoodo",
-    "image": "https://i.ibb.co/F7THNfs/sudowoodo.png"
-  },
-  {
-    "name": "suicune",
-    "image": "https://i.ibb.co/WPfgB48/suicune.png"
-  },
-  {
-    "name": "sunflora",
-    "image": "https://i.ibb.co/606RKCn/sunflora.png"
-  },
-  {
-    "name": "sunkern",
-    "image": "https://i.ibb.co/rxyyGDr/sunkern.png"
-  },
-  {
-    "name": "surskit",
-    "image": "https://i.ibb.co/LJmg9G0/surskit.png"
-  },
-  {
-    "name": "swablu",
-    "image": "https://i.ibb.co/ZMZ4qHL/swablu.png"
-  },
-  {
-    "name": "swadloon",
-    "image": "https://i.ibb.co/hchwktB/swadloon.png"
-  },
-  {
-    "name": "swalot",
-    "image": "https://i.ibb.co/mccg0ZK/swalot.png"
-  },
-  {
-    "name": "swampert",
-    "image": "https://i.ibb.co/kgVvvxX/swampert.png"
-  },
-  {
-    "name": "swanna",
-    "image": "https://i.ibb.co/2KYNwX6/swanna.png"
-  },
-  {
-    "name": "swellow",
-    "image": "https://i.ibb.co/R3CvCYy/swellow.png"
-  },
-  {
-    "name": "swinub",
-    "image": "https://i.ibb.co/TbNBSvz/swinub.png"
-  },
-  {
-    "name": "swirlix",
-    "image": "https://i.ibb.co/BtbtGNv/swirlix.png"
-  },
-  {
-    "name": "swoobat",
-    "image": "https://i.ibb.co/qx2f3vP/swoobat.png"
-  },
-  {
-    "name": "sylveon",
-    "image": "https://i.ibb.co/kGDLgCB/sylveon.png"
-  },
-  {
-    "name": "taillow",
-    "image": "https://i.ibb.co/FxFWSP6/taillow.png"
-  },
-  {
-    "name": "talonflame",
-    "image": "https://i.ibb.co/YL1t8G1/talonflame.png"
-  },
-  {
-    "name": "tangela",
-    "image": "https://i.ibb.co/L6GGdnB/tangela.png"
-  },
-  {
-    "name": "tangrowth",
-    "image": "https://i.ibb.co/mqh5pk8/tangrowth.png"
-  },
-  {
-    "name": "tapu-bulu",
-    "image": "https://i.ibb.co/sWDRBth/tapu-bulu.png"
-  },
-  {
-    "name": "tapu-fini",
-    "image": "https://i.ibb.co/cLHP5dg/tapu-fini.png"
-  },
-  {
-    "name": "tapu-koko",
-    "image": "https://i.ibb.co/VWJn7fM/tapu-koko.png"
-  },
-  {
-    "name": "tapu-lele",
-    "image": "https://i.ibb.co/6P3sh8N/tapu-lele.png"
-  },
-  {
-    "name": "tauros",
-    "image": "https://i.ibb.co/TwS4r9j/tauros.png"
-  },
-  {
-    "name": "teddiursa",
-    "image": "https://i.ibb.co/C2w9rgn/teddiursa.png"
-  },
-  {
-    "name": "tentacool",
-    "image": "https://i.ibb.co/F0910L7/tentacool.png"
-  },
-  {
-    "name": "tentacruel",
-    "image": "https://i.ibb.co/jWGkrjk/tentacruel.png"
-  },
-  {
-    "name": "tepig",
-    "image": "https://i.ibb.co/7nFGf4j/tepig.png"
-  },
-  {
-    "name": "terrakion",
-    "image": "https://i.ibb.co/nkRhR5T/terrakion.png"
-  },
-  {
-    "name": "thievul",
-    "image": "https://i.ibb.co/dLg7STp/thievul.png"
-  },
-  {
-    "name": "throh",
-    "image": "https://i.ibb.co/8MX9fSp/throh.png"
-  },
-  {
-    "name": "thundurus-incarnate",
-    "image": "https://i.ibb.co/V9tyfBn/thundurus-incarnate.png"
-  },
-  {
-    "name": "thwackey",
-    "image": "https://i.ibb.co/QcRfYgV/thwackey.png"
-  },
-  {
-    "name": "timburr",
-    "image": "https://i.ibb.co/hMVz8SD/timburr.png"
-  },
-  {
-    "name": "tirtouga",
-    "image": "https://i.ibb.co/Dw299xK/tirtouga.png"
-  },
-  {
-    "name": "togedemaru",
-    "image": "https://i.ibb.co/DCVhthW/togedemaru.png"
-  },
-  {
-    "name": "togekiss",
-    "image": "https://i.ibb.co/2gn1WHG/togekiss.png"
-  },
-  {
-    "name": "togepi",
-    "image": "https://i.ibb.co/KwcXncz/togepi.png"
-  },
-  {
-    "name": "togetic",
-    "image": "https://i.ibb.co/XxHghsr/togetic.png"
-  },
-  {
-    "name": "torchic",
-    "image": "https://i.ibb.co/hdNjgs9/torchic.png"
-  },
-  {
-    "name": "torkoal",
-    "image": "https://i.ibb.co/ZVgFQFG/torkoal.png"
-  },
-  {
-    "name": "tornadus-incarnate",
-    "image": "https://i.ibb.co/vx9Z38F/tornadus-incarnate.png"
-  },
-  {
-    "name": "torracat",
-    "image": "https://i.ibb.co/jh1BDJV/torracat.png"
-  },
-  {
-    "name": "torterra",
-    "image": "https://i.ibb.co/VVY0S0Q/torterra.png"
-  },
-  {
-    "name": "totodile",
-    "image": "https://i.ibb.co/Jjj3c1K/totodile.png"
-  },
-  {
-    "name": "toucannon",
-    "image": "https://i.ibb.co/Qdv9w8c/toucannon.png"
-  },
-  {
-    "name": "toxapex",
-    "image": "https://i.ibb.co/DYXxV0H/toxapex.png"
-  },
-  {
-    "name": "toxel",
-    "image": "https://i.ibb.co/y8Qvg49/toxel.png"
-  },
-  {
-    "name": "toxicroak",
-    "image": "https://i.ibb.co/5rsTph6/toxicroak.png"
-  },
-  {
-    "name": "toxtricity-amped",
-    "image": "https://i.ibb.co/GQnk8Bp/toxtricity-amped.png"
-  },
-  {
-    "name": "tranquill",
-    "image": "https://i.ibb.co/F5JJGqF/tranquill.png"
-  },
-  {
-    "name": "trapinch",
-    "image": "https://i.ibb.co/qmY7LNG/trapinch.png"
-  },
-  {
-    "name": "treecko",
-    "image": "https://i.ibb.co/X3qbpRP/treecko.png"
-  },
-  {
-    "name": "trevenant",
-    "image": "https://i.ibb.co/PMxCcvL/trevenant.png"
-  },
-  {
-    "name": "tropius",
-    "image": "https://i.ibb.co/SNvTZzM/tropius.png"
-  },
-  {
-    "name": "trubbish",
-    "image": "https://i.ibb.co/mtwSZPS/trubbish.png"
-  },
-  {
-    "name": "trumbeak",
-    "image": "https://i.ibb.co/TTnNN1R/trumbeak.png"
-  },
-  {
-    "name": "tsareena",
-    "image": "https://i.ibb.co/gDy3r0C/tsareena.png"
-  },
-  {
-    "name": "turtonator",
-    "image": "https://i.ibb.co/GFwFf0x/turtonator.png"
-  },
-  {
-    "name": "turtwig",
-    "image": "https://i.ibb.co/2WwzyNg/turtwig.png"
-  },
-  {
-    "name": "tympole",
-    "image": "https://i.ibb.co/MZSWx1f/tympole.png"
-  },
-  {
-    "name": "tynamo",
-    "image": "https://i.ibb.co/2SmFjYk/tynamo.png"
-  },
-  {
-    "name": "type-null",
-    "image": "https://i.ibb.co/mcbxtzg/type-null.png"
-  },
-  {
-    "name": "typhlosion",
-    "image": "https://i.ibb.co/6PcQzyV/typhlosion.png"
-  },
-  {
-    "name": "tyranitar",
-    "image": "https://i.ibb.co/VCbcH4F/tyranitar.png"
-  },
-  {
-    "name": "tyrantrum",
-    "image": "https://i.ibb.co/JdXSGgS/tyrantrum.png"
-  },
-  {
-    "name": "tyrogue",
-    "image": "https://i.ibb.co/KhS7hKd/tyrogue.png"
-  },
-  {
-    "name": "tyrunt",
-    "image": "https://i.ibb.co/dGbXL6B/tyrunt.png"
-  },
-  {
-    "name": "umbreon",
-    "image": "https://i.ibb.co/HqD6Z0t/umbreon.png"
-  },
-  {
-    "name": "unfezant",
-    "image": "https://i.ibb.co/jg7pn4X/unfezant.png"
-  },
-  {
-    "name": "unown-a",
-    "image": "https://i.ibb.co/RpVH2gQ/unown-a.png"
-  },
-  {
-    "name": "ursaring",
-    "image": "https://i.ibb.co/hfSR97x/ursaring.png"
-  },
-  {
-    "name": "urshifu-single-strike",
-    "image": "https://i.ibb.co/RTdqvNz/urshifu-single-strike.png"
-  },
-  {
-    "name": "uxie",
-    "image": "https://i.ibb.co/8X3Rd92/uxie.png"
-  },
-  {
-    "name": "vanillish",
-    "image": "https://i.ibb.co/vcPVfzn/vanillish.png"
-  },
-  {
-    "name": "vanillite",
-    "image": "https://i.ibb.co/hdmwTPK/vanillite.png"
-  },
-  {
-    "name": "vanilluxe",
-    "image": "https://i.ibb.co/mDQNLJj/vanilluxe.png"
-  },
-  {
-    "name": "vaporeon",
-    "image": "https://i.ibb.co/WnVZ3Kg/vaporeon.png"
-  },
-  {
-    "name": "venipede",
-    "image": "https://i.ibb.co/4PbTNwn/venipede.png"
-  },
-  {
-    "name": "venomoth",
-    "image": "https://i.ibb.co/C9CfN85/venomoth.png"
-  },
-  {
-    "name": "venonat",
-    "image": "https://i.ibb.co/RjK7mKk/venonat.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
   },
   {
     "name": "venusaur",
-    "image": "https://i.ibb.co/CsgDRpr/venusaur.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
   },
   {
-    "name": "vespiquen",
-    "image": "https://i.ibb.co/g6YzLQy/vespiquen.png"
+    "name": "charmander",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
   },
   {
-    "name": "vibrava",
-    "image": "https://i.ibb.co/47cjHmV/vibrava.png"
+    "name": "charmeleon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
   },
   {
-    "name": "victini",
-    "image": "https://i.ibb.co/1K8Scf2/victini.png"
+    "name": "charizard",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
   },
   {
-    "name": "victreebel",
-    "image": "https://i.ibb.co/s1fhbP1/victreebel.png"
-  },
-  {
-    "name": "vigoroth",
-    "image": "https://i.ibb.co/C0NC7TP/vigoroth.png"
-  },
-  {
-    "name": "vikavolt",
-    "image": "https://i.ibb.co/n7TZ2VW/vikavolt.png"
-  },
-  {
-    "name": "vileplume",
-    "image": "https://i.ibb.co/G5KtmvN/vileplume.png"
-  },
-  {
-    "name": "virizion",
-    "image": "https://i.ibb.co/Ky2hQ9M/virizion.png"
-  },
-  {
-    "name": "vivillon-meadow",
-    "image": "https://i.ibb.co/wM7S4TQ/vivillon-meadow.png"
-  },
-  {
-    "name": "volbeat",
-    "image": "https://i.ibb.co/mvPXsJL/volbeat.png"
-  },
-  {
-    "name": "volcanion",
-    "image": "https://i.ibb.co/mznY3xy/volcanion.png"
-  },
-  {
-    "name": "volcarona",
-    "image": "https://i.ibb.co/71vyWpp/volcarona.png"
-  },
-  {
-    "name": "voltorb",
-    "image": "https://i.ibb.co/28bFF8k/voltorb.png"
-  },
-  {
-    "name": "vullaby",
-    "image": "https://i.ibb.co/mzx9w8N/vullaby.png"
-  },
-  {
-    "name": "vulpix",
-    "image": "https://i.ibb.co/jWJwRt0/vulpix.png"
-  },
-  {
-    "name": "wailmer",
-    "image": "https://i.ibb.co/ScT6x85/wailmer.png"
-  },
-  {
-    "name": "wailord",
-    "image": "https://i.ibb.co/qCx8V6J/wailord.png"
-  },
-  {
-    "name": "walrein",
-    "image": "https://i.ibb.co/3yNwQzg/walrein.png"
+    "name": "squirtle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
   },
   {
     "name": "wartortle",
-    "image": "https://i.ibb.co/ngR3Mj8/wartortle.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
   },
   {
-    "name": "watchog",
-    "image": "https://i.ibb.co/XygpSzg/watchog.png"
+    "name": "blastoise",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
   },
   {
-    "name": "weavile",
-    "image": "https://i.ibb.co/SrmZdrz/weavile.png"
+    "name": "caterpie",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+  },
+  {
+    "name": "metapod",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+  },
+  {
+    "name": "butterfree",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
   },
   {
     "name": "weedle",
-    "image": "https://i.ibb.co/wQ4Yfx5/weedle.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
   },
   {
-    "name": "weepinbell",
-    "image": "https://i.ibb.co/0BMb585/weepinbell.png"
+    "name": "kakuna",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
   },
   {
-    "name": "weezing",
-    "image": "https://i.ibb.co/9bqR4CC/weezing.png"
+    "name": "beedrill",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
   },
   {
-    "name": "whimsicott",
-    "image": "https://i.ibb.co/vv11G81/whimsicott.png"
+    "name": "pidgey",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
   },
   {
-    "name": "whirlipede",
-    "image": "https://i.ibb.co/tzz4QbD/whirlipede.png"
+    "name": "pidgeotto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
   },
   {
-    "name": "whiscash",
-    "image": "https://i.ibb.co/mRV1xP1/whiscash.png"
+    "name": "pidgeot",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
   },
   {
-    "name": "whismur",
-    "image": "https://i.ibb.co/7jqcQPx/whismur.png"
+    "name": "rattata",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
+  },
+  {
+    "name": "raticate",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
+  },
+  {
+    "name": "spearow",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
+  },
+  {
+    "name": "fearow",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
+  },
+  {
+    "name": "ekans",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
+  },
+  {
+    "name": "arbok",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
+  },
+  {
+    "name": "pikachu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+  },
+  {
+    "name": "raichu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
+  },
+  {
+    "name": "sandshrew",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png"
+  },
+  {
+    "name": "sandslash",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png"
+  },
+  {
+    "name": "nidoran-f",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
+  },
+  {
+    "name": "nidorina",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
+  },
+  {
+    "name": "nidoqueen",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
+  },
+  {
+    "name": "nidoran-m",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
+  },
+  {
+    "name": "nidorino",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
+  },
+  {
+    "name": "nidoking",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
+  },
+  {
+    "name": "clefairy",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
+  },
+  {
+    "name": "clefable",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
+  },
+  {
+    "name": "vulpix",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
+  },
+  {
+    "name": "ninetales",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
+  },
+  {
+    "name": "jigglypuff",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
   },
   {
     "name": "wigglytuff",
-    "image": "https://i.ibb.co/GR7x7yk/wigglytuff.png"
-  },
-  {
-    "name": "wimpod",
-    "image": "https://i.ibb.co/FhSmfhG/wimpod.png"
-  },
-  {
-    "name": "wingull",
-    "image": "https://i.ibb.co/hMyfkR6/wingull.png"
-  },
-  {
-    "name": "wishiwashi-solo",
-    "image": "https://i.ibb.co/TmBg1LS/wishiwashi-solo.png"
-  },
-  {
-    "name": "wobbuffet",
-    "image": "https://i.ibb.co/5T7SPjD/wobbuffet.png"
-  },
-  {
-    "name": "woobat",
-    "image": "https://i.ibb.co/hYwCGDR/woobat.png"
-  },
-  {
-    "name": "wooloo",
-    "image": "https://i.ibb.co/bBrsPv7/wooloo.png"
-  },
-  {
-    "name": "wooper",
-    "image": "https://i.ibb.co/276fSx3/wooper.png"
-  },
-  {
-    "name": "wormadam-plant",
-    "image": "https://i.ibb.co/mFJbXNp/wormadam-plant.png"
-  },
-  {
-    "name": "wurmple",
-    "image": "https://i.ibb.co/PgJ65C8/wurmple.png"
-  },
-  {
-    "name": "wynaut",
-    "image": "https://i.ibb.co/xG8M6RK/wynaut.png"
-  },
-  {
-    "name": "xatu",
-    "image": "https://i.ibb.co/x7d26gF/xatu.png"
-  },
-  {
-    "name": "xerneas-active",
-    "image": "https://i.ibb.co/W6wLDW7/xerneas-active.png"
-  },
-  {
-    "name": "xurkitree",
-    "image": "https://i.ibb.co/3BMRzjZ/xurkitree.png"
-  },
-  {
-    "name": "yamask",
-    "image": "https://i.ibb.co/pnLBPHQ/yamask.png"
-  },
-  {
-    "name": "yamper",
-    "image": "https://i.ibb.co/8jW5Q4V/yamper.png"
-  },
-  {
-    "name": "yanma",
-    "image": "https://i.ibb.co/HtY3kY3/yanma.png"
-  },
-  {
-    "name": "yanmega",
-    "image": "https://i.ibb.co/h79yjgh/yanmega.png"
-  },
-  {
-    "name": "yungoos",
-    "image": "https://i.ibb.co/ZxNFkMv/yungoos.png"
-  },
-  {
-    "name": "yveltal",
-    "image": "https://i.ibb.co/bbdhGBK/yveltal.png"
-  },
-  {
-    "name": "zacian-hero",
-    "image": "https://i.ibb.co/Vj1wx8n/zacian-hero.png"
-  },
-  {
-    "name": "zamazenta-hero",
-    "image": "https://i.ibb.co/zmBtW2w/zamazenta-hero.png"
-  },
-  {
-    "name": "zangoose",
-    "image": "https://i.ibb.co/QbdFLpH/zangoose.png"
-  },
-  {
-    "name": "zapdos",
-    "image": "https://i.ibb.co/kKyQ23m/zapdos.png"
-  },
-  {
-    "name": "zarude",
-    "image": "https://i.ibb.co/VQ7RfGv/zarude.png"
-  },
-  {
-    "name": "zebstrika",
-    "image": "https://i.ibb.co/0nq4SNV/zebstrika.png"
-  },
-  {
-    "name": "zekrom",
-    "image": "https://i.ibb.co/48gm2PP/zekrom.png"
-  },
-  {
-    "name": "zeraora",
-    "image": "https://i.ibb.co/17y2GH4/zeraora.png"
-  },
-  {
-    "name": "zigzagoon",
-    "image": "https://i.ibb.co/mTVhjfR/zigzagoon.png"
-  },
-  {
-    "name": "zoroark",
-    "image": "https://i.ibb.co/G7GWXdw/zoroark.png"
-  },
-  {
-    "name": "zorua",
-    "image": "https://i.ibb.co/YkhSvgq/zorua.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
   },
   {
     "name": "zubat",
-    "image": "https://i.ibb.co/MCt8Tw0/zubat.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png"
   },
   {
-    "name": "zweilous",
-    "image": "https://i.ibb.co/nPfwDTF/zweilous.png"
+    "name": "golbat",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
   },
   {
-    "name": "zygarde",
-    "image": "https://i.ibb.co/VC72x3m/zygarde.png"
+    "name": "oddish",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
+  },
+  {
+    "name": "gloom",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
+  },
+  {
+    "name": "vileplume",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
+  },
+  {
+    "name": "paras",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png"
+  },
+  {
+    "name": "parasect",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png"
+  },
+  {
+    "name": "venonat",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png"
+  },
+  {
+    "name": "venomoth",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png"
+  },
+  {
+    "name": "diglett",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png"
+  },
+  {
+    "name": "dugtrio",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png"
+  },
+  {
+    "name": "meowth",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png"
+  },
+  {
+    "name": "persian",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png"
+  },
+  {
+    "name": "psyduck",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
+  },
+  {
+    "name": "golduck",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png"
+  },
+  {
+    "name": "mankey",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png"
+  },
+  {
+    "name": "primeape",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png"
+  },
+  {
+    "name": "growlithe",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png"
+  },
+  {
+    "name": "arcanine",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
+  },
+  {
+    "name": "poliwag",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
+  },
+  {
+    "name": "poliwhirl",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
+  },
+  {
+    "name": "poliwrath",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
+  },
+  {
+    "name": "abra",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png"
+  },
+  {
+    "name": "kadabra",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png"
+  },
+  {
+    "name": "alakazam",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png"
+  },
+  {
+    "name": "machop",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
+  },
+  {
+    "name": "machoke",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
+  },
+  {
+    "name": "machamp",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
+  },
+  {
+    "name": "bellsprout",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png"
+  },
+  {
+    "name": "weepinbell",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
+  },
+  {
+    "name": "victreebel",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
+  },
+  {
+    "name": "tentacool",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png"
+  },
+  {
+    "name": "tentacruel",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png"
+  },
+  {
+    "name": "geodude",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png"
+  },
+  {
+    "name": "graveler",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png"
+  },
+  {
+    "name": "golem",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png"
+  },
+  {
+    "name": "ponyta",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png"
+  },
+  {
+    "name": "rapidash",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png"
+  },
+  {
+    "name": "slowpoke",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png"
+  },
+  {
+    "name": "slowbro",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png"
+  },
+  {
+    "name": "magnemite",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png"
+  },
+  {
+    "name": "magneton",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png"
+  },
+  {
+    "name": "farfetchd",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png"
+  },
+  {
+    "name": "doduo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png"
+  },
+  {
+    "name": "dodrio",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png"
+  },
+  {
+    "name": "seel",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png"
+  },
+  {
+    "name": "dewgong",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png"
+  },
+  {
+    "name": "grimer",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png"
+  },
+  {
+    "name": "muk",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png"
+  },
+  {
+    "name": "shellder",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png"
+  },
+  {
+    "name": "cloyster",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png"
+  },
+  {
+    "name": "gastly",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png"
+  },
+  {
+    "name": "haunter",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png"
+  },
+  {
+    "name": "gengar",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
+  },
+  {
+    "name": "onix",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png"
+  },
+  {
+    "name": "drowzee",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png"
+  },
+  {
+    "name": "hypno",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png"
+  },
+  {
+    "name": "krabby",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png"
+  },
+  {
+    "name": "kingler",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png"
+  },
+  {
+    "name": "voltorb",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png"
+  },
+  {
+    "name": "electrode",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png"
+  },
+  {
+    "name": "exeggcute",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png"
+  },
+  {
+    "name": "exeggutor",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png"
+  },
+  {
+    "name": "cubone",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png"
+  },
+  {
+    "name": "marowak",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png"
+  },
+  {
+    "name": "hitmonlee",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png"
+  },
+  {
+    "name": "hitmonchan",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png"
+  },
+  {
+    "name": "lickitung",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png"
+  },
+  {
+    "name": "koffing",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png"
+  },
+  {
+    "name": "weezing",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png"
+  },
+  {
+    "name": "rhyhorn",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png"
+  },
+  {
+    "name": "rhydon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png"
+  },
+  {
+    "name": "chansey",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
+  },
+  {
+    "name": "tangela",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png"
+  },
+  {
+    "name": "kangaskhan",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png"
+  },
+  {
+    "name": "horsea",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png"
+  },
+  {
+    "name": "seadra",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png"
+  },
+  {
+    "name": "goldeen",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png"
+  },
+  {
+    "name": "seaking",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png"
+  },
+  {
+    "name": "staryu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png"
+  },
+  {
+    "name": "starmie",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png"
+  },
+  {
+    "name": "mr-mime",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png"
+  },
+  {
+    "name": "scyther",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png"
+  },
+  {
+    "name": "jynx",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png"
+  },
+  {
+    "name": "electabuzz",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png"
+  },
+  {
+    "name": "magmar",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png"
+  },
+  {
+    "name": "pinsir",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png"
+  },
+  {
+    "name": "tauros",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png"
+  },
+  {
+    "name": "magikarp",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
+  },
+  {
+    "name": "gyarados",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png"
+  },
+  {
+    "name": "lapras",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png"
+  },
+  {
+    "name": "ditto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
+  },
+  {
+    "name": "eevee",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+  },
+  {
+    "name": "vaporeon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
+  },
+  {
+    "name": "jolteon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png"
+  },
+  {
+    "name": "flareon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png"
+  },
+  {
+    "name": "porygon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png"
+  },
+  {
+    "name": "omanyte",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png"
+  },
+  {
+    "name": "omastar",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png"
+  },
+  {
+    "name": "kabuto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png"
+  },
+  {
+    "name": "kabutops",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png"
+  },
+  {
+    "name": "aerodactyl",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png"
+  },
+  {
+    "name": "snorlax",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
+  },
+  {
+    "name": "articuno",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png"
+  },
+  {
+    "name": "zapdos",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png"
+  },
+  {
+    "name": "moltres",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png"
+  },
+  {
+    "name": "dratini",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png"
+  },
+  {
+    "name": "dragonair",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png"
+  },
+  {
+    "name": "dragonite",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
+  },
+  {
+    "name": "mewtwo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png"
+  },
+  {
+    "name": "mew",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png"
+  },
+  {
+    "name": "chikorita",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png"
+  },
+  {
+    "name": "bayleef",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png"
+  },
+  {
+    "name": "meganium",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png"
+  },
+  {
+    "name": "cyndaquil",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png"
+  },
+  {
+    "name": "quilava",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/156.png"
+  },
+  {
+    "name": "typhlosion",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png"
+  },
+  {
+    "name": "totodile",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png"
+  },
+  {
+    "name": "croconaw",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/159.png"
+  },
+  {
+    "name": "feraligatr",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/160.png"
+  },
+  {
+    "name": "sentret",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/161.png"
+  },
+  {
+    "name": "furret",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/162.png"
+  },
+  {
+    "name": "hoothoot",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png"
+  },
+  {
+    "name": "noctowl",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png"
+  },
+  {
+    "name": "ledyba",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/165.png"
+  },
+  {
+    "name": "ledian",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/166.png"
+  },
+  {
+    "name": "spinarak",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png"
+  },
+  {
+    "name": "ariados",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png"
+  },
+  {
+    "name": "crobat",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png"
+  },
+  {
+    "name": "chinchou",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/170.png"
+  },
+  {
+    "name": "lanturn",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png"
+  },
+  {
+    "name": "pichu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png"
+  },
+  {
+    "name": "cleffa",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png"
+  },
+  {
+    "name": "igglybuff",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png"
+  },
+  {
+    "name": "togepi",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png"
+  },
+  {
+    "name": "togetic",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png"
+  },
+  {
+    "name": "natu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/177.png"
+  },
+  {
+    "name": "xatu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/178.png"
+  },
+  {
+    "name": "mareep",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/179.png"
+  },
+  {
+    "name": "flaaffy",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/180.png"
+  },
+  {
+    "name": "ampharos",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/181.png"
+  },
+  {
+    "name": "bellossom",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png"
+  },
+  {
+    "name": "marill",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png"
+  },
+  {
+    "name": "azumarill",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png"
+  },
+  {
+    "name": "sudowoodo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png"
+  },
+  {
+    "name": "politoed",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png"
+  },
+  {
+    "name": "hoppip",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/187.png"
+  },
+  {
+    "name": "skiploom",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/188.png"
+  },
+  {
+    "name": "jumpluff",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/189.png"
+  },
+  {
+    "name": "aipom",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png"
+  },
+  {
+    "name": "sunkern",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/191.png"
+  },
+  {
+    "name": "sunflora",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/192.png"
+  },
+  {
+    "name": "yanma",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/193.png"
+  },
+  {
+    "name": "wooper",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/194.png"
+  },
+  {
+    "name": "quagsire",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png"
+  },
+  {
+    "name": "espeon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png"
+  },
+  {
+    "name": "umbreon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png"
+  },
+  {
+    "name": "murkrow",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png"
+  },
+  {
+    "name": "slowking",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/199.png"
+  },
+  {
+    "name": "misdreavus",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png"
+  },
+  {
+    "name": "unown",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201.png"
+  },
+  {
+    "name": "wobbuffet",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/202.png"
+  },
+  {
+    "name": "girafarig",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/203.png"
+  },
+  {
+    "name": "pineco",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/204.png"
+  },
+  {
+    "name": "forretress",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/205.png"
+  },
+  {
+    "name": "dunsparce",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/206.png"
+  },
+  {
+    "name": "gligar",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/207.png"
+  },
+  {
+    "name": "steelix",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png"
+  },
+  {
+    "name": "snubbull",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/209.png"
+  },
+  {
+    "name": "granbull",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/210.png"
+  },
+  {
+    "name": "qwilfish",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/211.png"
+  },
+  {
+    "name": "scizor",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png"
+  },
+  {
+    "name": "shuckle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png"
+  },
+  {
+    "name": "heracross",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png"
+  },
+  {
+    "name": "sneasel",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png"
+  },
+  {
+    "name": "teddiursa",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/216.png"
+  },
+  {
+    "name": "ursaring",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/217.png"
+  },
+  {
+    "name": "slugma",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/218.png"
+  },
+  {
+    "name": "magcargo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/219.png"
+  },
+  {
+    "name": "swinub",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/220.png"
+  },
+  {
+    "name": "piloswine",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/221.png"
+  },
+  {
+    "name": "corsola",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/222.png"
+  },
+  {
+    "name": "remoraid",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png"
+  },
+  {
+    "name": "octillery",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/224.png"
+  },
+  {
+    "name": "delibird",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/225.png"
+  },
+  {
+    "name": "mantine",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/226.png"
+  },
+  {
+    "name": "skarmory",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/227.png"
+  },
+  {
+    "name": "houndour",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/228.png"
+  },
+  {
+    "name": "houndoom",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png"
+  },
+  {
+    "name": "kingdra",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/230.png"
+  },
+  {
+    "name": "phanpy",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/231.png"
+  },
+  {
+    "name": "donphan",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/232.png"
+  },
+  {
+    "name": "porygon2",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png"
+  },
+  {
+    "name": "stantler",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/234.png"
+  },
+  {
+    "name": "smeargle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png"
+  },
+  {
+    "name": "tyrogue",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png"
+  },
+  {
+    "name": "hitmontop",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/237.png"
+  },
+  {
+    "name": "smoochum",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/238.png"
+  },
+  {
+    "name": "elekid",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/239.png"
+  },
+  {
+    "name": "magby",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png"
+  },
+  {
+    "name": "miltank",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/241.png"
+  },
+  {
+    "name": "blissey",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png"
+  },
+  {
+    "name": "raikou",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/243.png"
+  },
+  {
+    "name": "entei",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/244.png"
+  },
+  {
+    "name": "suicune",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/245.png"
+  },
+  {
+    "name": "larvitar",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/246.png"
+  },
+  {
+    "name": "pupitar",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/247.png"
+  },
+  {
+    "name": "tyranitar",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/248.png"
+  },
+  {
+    "name": "lugia",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png"
+  },
+  {
+    "name": "ho-oh",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/250.png"
+  },
+  {
+    "name": "celebi",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/251.png"
+  },
+  {
+    "name": "treecko",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png"
+  },
+  {
+    "name": "grovyle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/253.png"
+  },
+  {
+    "name": "sceptile",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png"
+  },
+  {
+    "name": "torchic",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png"
+  },
+  {
+    "name": "combusken",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/256.png"
+  },
+  {
+    "name": "blaziken",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png"
+  },
+  {
+    "name": "mudkip",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/258.png"
+  },
+  {
+    "name": "marshtomp",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/259.png"
+  },
+  {
+    "name": "swampert",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png"
+  },
+  {
+    "name": "poochyena",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/261.png"
+  },
+  {
+    "name": "mightyena",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/262.png"
+  },
+  {
+    "name": "zigzagoon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/263.png"
+  },
+  {
+    "name": "linoone",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/264.png"
+  },
+  {
+    "name": "wurmple",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png"
+  },
+  {
+    "name": "silcoon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/266.png"
+  },
+  {
+    "name": "beautifly",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png"
+  },
+  {
+    "name": "cascoon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/268.png"
+  },
+  {
+    "name": "dustox",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/269.png"
+  },
+  {
+    "name": "lotad",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/270.png"
+  },
+  {
+    "name": "lombre",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/271.png"
+  },
+  {
+    "name": "ludicolo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/272.png"
+  },
+  {
+    "name": "seedot",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/273.png"
+  },
+  {
+    "name": "nuzleaf",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/274.png"
+  },
+  {
+    "name": "shiftry",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/275.png"
+  },
+  {
+    "name": "taillow",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/276.png"
+  },
+  {
+    "name": "swellow",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/277.png"
+  },
+  {
+    "name": "wingull",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/278.png"
+  },
+  {
+    "name": "pelipper",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png"
+  },
+  {
+    "name": "ralts",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png"
+  },
+  {
+    "name": "kirlia",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png"
+  },
+  {
+    "name": "gardevoir",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png"
+  },
+  {
+    "name": "surskit",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/283.png"
+  },
+  {
+    "name": "masquerain",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/284.png"
+  },
+  {
+    "name": "shroomish",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/285.png"
+  },
+  {
+    "name": "breloom",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/286.png"
+  },
+  {
+    "name": "slakoth",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/287.png"
+  },
+  {
+    "name": "vigoroth",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/288.png"
+  },
+  {
+    "name": "slaking",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/289.png"
+  },
+  {
+    "name": "nincada",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/290.png"
+  },
+  {
+    "name": "ninjask",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/291.png"
+  },
+  {
+    "name": "shedinja",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/292.png"
+  },
+  {
+    "name": "whismur",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/293.png"
+  },
+  {
+    "name": "loudred",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/294.png"
+  },
+  {
+    "name": "exploud",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/295.png"
+  },
+  {
+    "name": "makuhita",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/296.png"
+  },
+  {
+    "name": "hariyama",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/297.png"
+  },
+  {
+    "name": "azurill",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/298.png"
+  },
+  {
+    "name": "nosepass",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png"
+  },
+  {
+    "name": "skitty",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/300.png"
+  },
+  {
+    "name": "delcatty",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/301.png"
+  },
+  {
+    "name": "sableye",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png"
+  },
+  {
+    "name": "mawile",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/303.png"
+  },
+  {
+    "name": "aron",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/304.png"
+  },
+  {
+    "name": "lairon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/305.png"
+  },
+  {
+    "name": "aggron",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png"
+  },
+  {
+    "name": "meditite",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png"
+  },
+  {
+    "name": "medicham",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/308.png"
+  },
+  {
+    "name": "electrike",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/309.png"
+  },
+  {
+    "name": "manectric",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/310.png"
+  },
+  {
+    "name": "plusle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/311.png"
+  },
+  {
+    "name": "minun",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/312.png"
+  },
+  {
+    "name": "volbeat",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/313.png"
+  },
+  {
+    "name": "illumise",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/314.png"
+  },
+  {
+    "name": "roselia",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png"
+  },
+  {
+    "name": "gulpin",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/316.png"
+  },
+  {
+    "name": "swalot",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/317.png"
+  },
+  {
+    "name": "carvanha",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/318.png"
+  },
+  {
+    "name": "sharpedo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/319.png"
+  },
+  {
+    "name": "wailmer",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/320.png"
+  },
+  {
+    "name": "wailord",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/321.png"
+  },
+  {
+    "name": "numel",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/322.png"
+  },
+  {
+    "name": "camerupt",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/323.png"
+  },
+  {
+    "name": "torkoal",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/324.png"
+  },
+  {
+    "name": "spoink",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/325.png"
+  },
+  {
+    "name": "grumpig",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png"
+  },
+  {
+    "name": "spinda",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/327.png"
+  },
+  {
+    "name": "trapinch",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/328.png"
+  },
+  {
+    "name": "vibrava",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/329.png"
+  },
+  {
+    "name": "flygon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/330.png"
+  },
+  {
+    "name": "cacnea",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/331.png"
+  },
+  {
+    "name": "cacturne",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/332.png"
+  },
+  {
+    "name": "swablu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png"
+  },
+  {
+    "name": "altaria",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png"
+  },
+  {
+    "name": "zangoose",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/335.png"
+  },
+  {
+    "name": "seviper",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/336.png"
+  },
+  {
+    "name": "lunatone",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/337.png"
+  },
+  {
+    "name": "solrock",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/338.png"
+  },
+  {
+    "name": "barboach",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/339.png"
+  },
+  {
+    "name": "whiscash",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/340.png"
+  },
+  {
+    "name": "corphish",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/341.png"
+  },
+  {
+    "name": "crawdaunt",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/342.png"
+  },
+  {
+    "name": "baltoy",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/343.png"
+  },
+  {
+    "name": "claydol",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/344.png"
+  },
+  {
+    "name": "lileep",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/345.png"
+  },
+  {
+    "name": "cradily",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/346.png"
+  },
+  {
+    "name": "anorith",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/347.png"
+  },
+  {
+    "name": "armaldo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/348.png"
+  },
+  {
+    "name": "feebas",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png"
+  },
+  {
+    "name": "milotic",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png"
+  },
+  {
+    "name": "castform",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/351.png"
+  },
+  {
+    "name": "kecleon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/352.png"
+  },
+  {
+    "name": "shuppet",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/353.png"
+  },
+  {
+    "name": "banette",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/354.png"
+  },
+  {
+    "name": "duskull",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/355.png"
+  },
+  {
+    "name": "dusclops",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png"
+  },
+  {
+    "name": "tropius",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/357.png"
+  },
+  {
+    "name": "chimecho",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/358.png"
+  },
+  {
+    "name": "absol",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/359.png"
+  },
+  {
+    "name": "wynaut",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/360.png"
+  },
+  {
+    "name": "snorunt",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png"
+  },
+  {
+    "name": "glalie",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/362.png"
+  },
+  {
+    "name": "spheal",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/363.png"
+  },
+  {
+    "name": "sealeo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/364.png"
+  },
+  {
+    "name": "walrein",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/365.png"
+  },
+  {
+    "name": "clamperl",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/366.png"
+  },
+  {
+    "name": "huntail",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/367.png"
+  },
+  {
+    "name": "gorebyss",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/368.png"
+  },
+  {
+    "name": "relicanth",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/369.png"
+  },
+  {
+    "name": "luvdisc",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/370.png"
+  },
+  {
+    "name": "bagon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/371.png"
+  },
+  {
+    "name": "shelgon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/372.png"
+  },
+  {
+    "name": "salamence",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/373.png"
+  },
+  {
+    "name": "beldum",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/374.png"
+  },
+  {
+    "name": "metang",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/375.png"
+  },
+  {
+    "name": "metagross",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png"
+  },
+  {
+    "name": "regirock",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/377.png"
+  },
+  {
+    "name": "regice",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/378.png"
+  },
+  {
+    "name": "registeel",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/379.png"
+  },
+  {
+    "name": "latias",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/380.png"
+  },
+  {
+    "name": "latios",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/381.png"
+  },
+  {
+    "name": "kyogre",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png"
+  },
+  {
+    "name": "groudon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png"
+  },
+  {
+    "name": "rayquaza",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png"
+  },
+  {
+    "name": "jirachi",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/385.png"
+  },
+  {
+    "name": "deoxys-normal",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/386.png"
+  },
+  {
+    "name": "turtwig",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png"
+  },
+  {
+    "name": "grotle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/388.png"
+  },
+  {
+    "name": "torterra",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/389.png"
+  },
+  {
+    "name": "chimchar",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png"
+  },
+  {
+    "name": "monferno",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/391.png"
+  },
+  {
+    "name": "infernape",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png"
+  },
+  {
+    "name": "piplup",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png"
+  },
+  {
+    "name": "prinplup",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/394.png"
+  },
+  {
+    "name": "empoleon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png"
+  },
+  {
+    "name": "starly",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/396.png"
+  },
+  {
+    "name": "staravia",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/397.png"
+  },
+  {
+    "name": "staraptor",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png"
+  },
+  {
+    "name": "bidoof",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png"
+  },
+  {
+    "name": "bibarel",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/400.png"
+  },
+  {
+    "name": "kricketot",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png"
+  },
+  {
+    "name": "kricketune",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/402.png"
+  },
+  {
+    "name": "shinx",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/403.png"
+  },
+  {
+    "name": "luxio",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/404.png"
+  },
+  {
+    "name": "luxray",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png"
+  },
+  {
+    "name": "budew",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png"
+  },
+  {
+    "name": "roserade",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png"
+  },
+  {
+    "name": "cranidos",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png"
+  },
+  {
+    "name": "rampardos",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png"
+  },
+  {
+    "name": "shieldon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png"
+  },
+  {
+    "name": "bastiodon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/411.png"
+  },
+  {
+    "name": "burmy",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png"
+  },
+  {
+    "name": "wormadam-plant",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/413.png"
+  },
+  {
+    "name": "mothim",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/414.png"
+  },
+  {
+    "name": "combee",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png"
+  },
+  {
+    "name": "vespiquen",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png"
+  },
+  {
+    "name": "pachirisu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/417.png"
+  },
+  {
+    "name": "buizel",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/418.png"
+  },
+  {
+    "name": "floatzel",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/419.png"
+  },
+  {
+    "name": "cherubi",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png"
+  },
+  {
+    "name": "cherrim",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/421.png"
+  },
+  {
+    "name": "shellos",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png"
+  },
+  {
+    "name": "gastrodon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png"
+  },
+  {
+    "name": "ambipom",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png"
+  },
+  {
+    "name": "drifloon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/425.png"
+  },
+  {
+    "name": "drifblim",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/426.png"
+  },
+  {
+    "name": "buneary",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png"
+  },
+  {
+    "name": "lopunny",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png"
+  },
+  {
+    "name": "mismagius",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png"
+  },
+  {
+    "name": "honchkrow",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png"
+  },
+  {
+    "name": "glameow",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png"
+  },
+  {
+    "name": "purugly",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png"
+  },
+  {
+    "name": "chingling",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png"
+  },
+  {
+    "name": "stunky",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/434.png"
+  },
+  {
+    "name": "skuntank",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/435.png"
+  },
+  {
+    "name": "bronzor",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png"
+  },
+  {
+    "name": "bronzong",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/437.png"
+  },
+  {
+    "name": "bonsly",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png"
+  },
+  {
+    "name": "mime-jr",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png"
+  },
+  {
+    "name": "happiny",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png"
+  },
+  {
+    "name": "chatot",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/441.png"
+  },
+  {
+    "name": "spiritomb",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png"
+  },
+  {
+    "name": "gible",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/443.png"
+  },
+  {
+    "name": "gabite",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/444.png"
+  },
+  {
+    "name": "garchomp",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png"
+  },
+  {
+    "name": "munchlax",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png"
+  },
+  {
+    "name": "riolu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png"
+  },
+  {
+    "name": "lucario",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png"
+  },
+  {
+    "name": "hippopotas",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/449.png"
+  },
+  {
+    "name": "hippowdon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png"
+  },
+  {
+    "name": "skorupi",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/451.png"
+  },
+  {
+    "name": "drapion",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/452.png"
+  },
+  {
+    "name": "croagunk",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png"
+  },
+  {
+    "name": "toxicroak",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/454.png"
+  },
+  {
+    "name": "carnivine",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/455.png"
+  },
+  {
+    "name": "finneon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png"
+  },
+  {
+    "name": "lumineon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png"
+  },
+  {
+    "name": "mantyke",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/458.png"
+  },
+  {
+    "name": "snover",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png"
   },
   {
     "name": "abomasnow",
-    "image": "https://i.ibb.co/kMbv14n/abomasnow.png"
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png"
+  },
+  {
+    "name": "weavile",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png"
+  },
+  {
+    "name": "magnezone",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png"
+  },
+  {
+    "name": "lickilicky",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png"
+  },
+  {
+    "name": "rhyperior",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png"
+  },
+  {
+    "name": "tangrowth",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png"
+  },
+  {
+    "name": "electivire",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png"
+  },
+  {
+    "name": "magmortar",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png"
+  },
+  {
+    "name": "togekiss",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png"
+  },
+  {
+    "name": "yanmega",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png"
+  },
+  {
+    "name": "leafeon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png"
+  },
+  {
+    "name": "glaceon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png"
+  },
+  {
+    "name": "gliscor",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png"
+  },
+  {
+    "name": "mamoswine",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png"
+  },
+  {
+    "name": "porygon-z",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png"
+  },
+  {
+    "name": "gallade",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png"
+  },
+  {
+    "name": "probopass",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png"
+  },
+  {
+    "name": "dusknoir",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png"
+  },
+  {
+    "name": "froslass",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/478.png"
+  },
+  {
+    "name": "rotom",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479.png"
+  },
+  {
+    "name": "uxie",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png"
+  },
+  {
+    "name": "mesprit",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/481.png"
+  },
+  {
+    "name": "azelf",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/482.png"
+  },
+  {
+    "name": "dialga",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png"
+  },
+  {
+    "name": "palkia",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png"
+  },
+  {
+    "name": "heatran",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/485.png"
+  },
+  {
+    "name": "regigigas",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/486.png"
+  },
+  {
+    "name": "giratina-altered",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png"
+  },
+  {
+    "name": "cresselia",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png"
+  },
+  {
+    "name": "phione",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/489.png"
+  },
+  {
+    "name": "manaphy",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png"
+  },
+  {
+    "name": "darkrai",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/491.png"
+  },
+  {
+    "name": "shaymin-land",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/492.png"
+  },
+  {
+    "name": "arceus",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493.png"
+  },
+  {
+    "name": "victini",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/494.png"
+  },
+  {
+    "name": "snivy",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png"
+  },
+  {
+    "name": "servine",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/496.png"
+  },
+  {
+    "name": "serperior",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png"
+  },
+  {
+    "name": "tepig",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/498.png"
+  },
+  {
+    "name": "pignite",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/499.png"
+  },
+  {
+    "name": "emboar",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/500.png"
+  },
+  {
+    "name": "oshawott",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/501.png"
+  },
+  {
+    "name": "dewott",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/502.png"
+  },
+  {
+    "name": "samurott",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/503.png"
+  },
+  {
+    "name": "patrat",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/504.png"
+  },
+  {
+    "name": "watchog",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/505.png"
+  },
+  {
+    "name": "lillipup",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/506.png"
+  },
+  {
+    "name": "herdier",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/507.png"
+  },
+  {
+    "name": "stoutland",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/508.png"
+  },
+  {
+    "name": "purrloin",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/509.png"
+  },
+  {
+    "name": "liepard",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/510.png"
+  },
+  {
+    "name": "pansage",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/511.png"
+  },
+  {
+    "name": "simisage",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/512.png"
+  },
+  {
+    "name": "pansear",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/513.png"
+  },
+  {
+    "name": "simisear",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png"
+  },
+  {
+    "name": "panpour",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/515.png"
+  },
+  {
+    "name": "simipour",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/516.png"
+  },
+  {
+    "name": "munna",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/517.png"
+  },
+  {
+    "name": "musharna",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/518.png"
+  },
+  {
+    "name": "pidove",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/519.png"
+  },
+  {
+    "name": "tranquill",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/520.png"
+  },
+  {
+    "name": "unfezant",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/521.png"
+  },
+  {
+    "name": "blitzle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/522.png"
+  },
+  {
+    "name": "zebstrika",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/523.png"
+  },
+  {
+    "name": "roggenrola",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/524.png"
+  },
+  {
+    "name": "boldore",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/525.png"
+  },
+  {
+    "name": "gigalith",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/526.png"
+  },
+  {
+    "name": "woobat",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/527.png"
+  },
+  {
+    "name": "swoobat",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/528.png"
+  },
+  {
+    "name": "drilbur",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/529.png"
+  },
+  {
+    "name": "excadrill",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/530.png"
+  },
+  {
+    "name": "audino",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/531.png"
+  },
+  {
+    "name": "timburr",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/532.png"
+  },
+  {
+    "name": "gurdurr",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/533.png"
+  },
+  {
+    "name": "conkeldurr",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png"
+  },
+  {
+    "name": "tympole",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/535.png"
+  },
+  {
+    "name": "palpitoad",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/536.png"
+  },
+  {
+    "name": "seismitoad",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/537.png"
+  },
+  {
+    "name": "throh",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/538.png"
+  },
+  {
+    "name": "sawk",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/539.png"
+  },
+  {
+    "name": "sewaddle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/540.png"
+  },
+  {
+    "name": "swadloon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/541.png"
+  },
+  {
+    "name": "leavanny",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png"
+  },
+  {
+    "name": "venipede",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/543.png"
+  },
+  {
+    "name": "whirlipede",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/544.png"
+  },
+  {
+    "name": "scolipede",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png"
+  },
+  {
+    "name": "cottonee",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/546.png"
+  },
+  {
+    "name": "whimsicott",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/547.png"
+  },
+  {
+    "name": "petilil",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/548.png"
+  },
+  {
+    "name": "lilligant",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/549.png"
+  },
+  {
+    "name": "basculin-red-striped",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/550.png"
+  },
+  {
+    "name": "sandile",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/551.png"
+  },
+  {
+    "name": "krokorok",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/552.png"
+  },
+  {
+    "name": "krookodile",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/553.png"
+  },
+  {
+    "name": "darumaka",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/554.png"
+  },
+  {
+    "name": "darmanitan-standard",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/555.png"
+  },
+  {
+    "name": "maractus",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/556.png"
+  },
+  {
+    "name": "dwebble",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/557.png"
+  },
+  {
+    "name": "crustle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/558.png"
+  },
+  {
+    "name": "scraggy",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/559.png"
+  },
+  {
+    "name": "scrafty",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/560.png"
+  },
+  {
+    "name": "sigilyph",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/561.png"
+  },
+  {
+    "name": "yamask",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/562.png"
+  },
+  {
+    "name": "cofagrigus",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/563.png"
+  },
+  {
+    "name": "tirtouga",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/564.png"
+  },
+  {
+    "name": "carracosta",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png"
+  },
+  {
+    "name": "archen",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/566.png"
+  },
+  {
+    "name": "archeops",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/567.png"
+  },
+  {
+    "name": "trubbish",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/568.png"
+  },
+  {
+    "name": "garbodor",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/569.png"
+  },
+  {
+    "name": "zorua",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/570.png"
+  },
+  {
+    "name": "zoroark",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png"
+  },
+  {
+    "name": "minccino",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/572.png"
+  },
+  {
+    "name": "cinccino",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/573.png"
+  },
+  {
+    "name": "gothita",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/574.png"
+  },
+  {
+    "name": "gothorita",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/575.png"
+  },
+  {
+    "name": "gothitelle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/576.png"
+  },
+  {
+    "name": "solosis",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/577.png"
+  },
+  {
+    "name": "duosion",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/578.png"
+  },
+  {
+    "name": "reuniclus",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/579.png"
+  },
+  {
+    "name": "ducklett",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/580.png"
+  },
+  {
+    "name": "swanna",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/581.png"
+  },
+  {
+    "name": "vanillite",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/582.png"
+  },
+  {
+    "name": "vanillish",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/583.png"
+  },
+  {
+    "name": "vanilluxe",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/584.png"
+  },
+  {
+    "name": "deerling",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585.png"
+  },
+  {
+    "name": "sawsbuck",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586.png"
+  },
+  {
+    "name": "emolga",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/587.png"
+  },
+  {
+    "name": "karrablast",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/588.png"
+  },
+  {
+    "name": "escavalier",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/589.png"
+  },
+  {
+    "name": "foongus",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/590.png"
+  },
+  {
+    "name": "amoonguss",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/591.png"
+  },
+  {
+    "name": "frillish",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/592.png"
+  },
+  {
+    "name": "jellicent",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/593.png"
+  },
+  {
+    "name": "alomomola",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/594.png"
+  },
+  {
+    "name": "joltik",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/595.png"
+  },
+  {
+    "name": "galvantula",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/596.png"
+  },
+  {
+    "name": "ferroseed",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/597.png"
+  },
+  {
+    "name": "ferrothorn",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/598.png"
+  },
+  {
+    "name": "klink",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/599.png"
+  },
+  {
+    "name": "klang",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/600.png"
+  },
+  {
+    "name": "klinklang",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/601.png"
+  },
+  {
+    "name": "tynamo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/602.png"
+  },
+  {
+    "name": "eelektrik",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/603.png"
+  },
+  {
+    "name": "eelektross",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/604.png"
+  },
+  {
+    "name": "elgyem",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/605.png"
+  },
+  {
+    "name": "beheeyem",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/606.png"
+  },
+  {
+    "name": "litwick",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/607.png"
+  },
+  {
+    "name": "lampent",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/608.png"
+  },
+  {
+    "name": "chandelure",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png"
+  },
+  {
+    "name": "axew",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/610.png"
+  },
+  {
+    "name": "fraxure",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/611.png"
+  },
+  {
+    "name": "haxorus",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png"
+  },
+  {
+    "name": "cubchoo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/613.png"
+  },
+  {
+    "name": "beartic",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/614.png"
+  },
+  {
+    "name": "cryogonal",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/615.png"
+  },
+  {
+    "name": "shelmet",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/616.png"
+  },
+  {
+    "name": "accelgor",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png"
+  },
+  {
+    "name": "stunfisk",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png"
+  },
+  {
+    "name": "mienfoo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/619.png"
+  },
+  {
+    "name": "mienshao",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/620.png"
+  },
+  {
+    "name": "druddigon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/621.png"
+  },
+  {
+    "name": "golett",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/622.png"
+  },
+  {
+    "name": "golurk",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/623.png"
+  },
+  {
+    "name": "pawniard",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/624.png"
+  },
+  {
+    "name": "bisharp",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/625.png"
+  },
+  {
+    "name": "bouffalant",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/626.png"
+  },
+  {
+    "name": "rufflet",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/627.png"
+  },
+  {
+    "name": "braviary",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/628.png"
+  },
+  {
+    "name": "vullaby",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/629.png"
+  },
+  {
+    "name": "mandibuzz",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/630.png"
+  },
+  {
+    "name": "heatmor",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/631.png"
+  },
+  {
+    "name": "durant",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/632.png"
+  },
+  {
+    "name": "deino",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/633.png"
+  },
+  {
+    "name": "zweilous",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/634.png"
+  },
+  {
+    "name": "hydreigon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png"
+  },
+  {
+    "name": "larvesta",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/636.png"
+  },
+  {
+    "name": "volcarona",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/637.png"
+  },
+  {
+    "name": "cobalion",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/638.png"
+  },
+  {
+    "name": "terrakion",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/639.png"
+  },
+  {
+    "name": "virizion",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/640.png"
+  },
+  {
+    "name": "tornadus-incarnate",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/641.png"
+  },
+  {
+    "name": "thundurus-incarnate",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/642.png"
+  },
+  {
+    "name": "reshiram",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/643.png"
+  },
+  {
+    "name": "zekrom",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png"
+  },
+  {
+    "name": "landorus-incarnate",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/645.png"
+  },
+  {
+    "name": "kyurem",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/646.png"
+  },
+  {
+    "name": "keldeo-ordinary",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/647.png"
+  },
+  {
+    "name": "meloetta-aria",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/648.png"
+  },
+  {
+    "name": "genesect",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/649.png"
+  },
+  {
+    "name": "chespin",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png"
+  },
+  {
+    "name": "quilladin",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/651.png"
+  },
+  {
+    "name": "chesnaught",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png"
+  },
+  {
+    "name": "fennekin",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png"
+  },
+  {
+    "name": "braixen",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/654.png"
+  },
+  {
+    "name": "delphox",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png"
+  },
+  {
+    "name": "froakie",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png"
+  },
+  {
+    "name": "frogadier",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/657.png"
+  },
+  {
+    "name": "greninja",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png"
+  },
+  {
+    "name": "bunnelby",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/659.png"
+  },
+  {
+    "name": "diggersby",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png"
+  },
+  {
+    "name": "fletchling",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/661.png"
+  },
+  {
+    "name": "fletchinder",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/662.png"
+  },
+  {
+    "name": "talonflame",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png"
+  },
+  {
+    "name": "scatterbug",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/664.png"
+  },
+  {
+    "name": "spewpa",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/665.png"
+  },
+  {
+    "name": "vivillon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666.png"
+  },
+  {
+    "name": "litleo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/667.png"
+  },
+  {
+    "name": "pyroar",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/668.png"
+  },
+  {
+    "name": "flabebe",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669.png"
+  },
+  {
+    "name": "floette",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/670.png"
+  },
+  {
+    "name": "florges",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png"
+  },
+  {
+    "name": "skiddo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/672.png"
+  },
+  {
+    "name": "gogoat",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/673.png"
+  },
+  {
+    "name": "pancham",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png"
+  },
+  {
+    "name": "pangoro",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/675.png"
+  },
+  {
+    "name": "furfrou",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676.png"
+  },
+  {
+    "name": "espurr",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png"
+  },
+  {
+    "name": "meowstic-male",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/678.png"
+  },
+  {
+    "name": "honedge",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/679.png"
+  },
+  {
+    "name": "doublade",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png"
+  },
+  {
+    "name": "aegislash-shield",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png"
+  },
+  {
+    "name": "spritzee",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png"
+  },
+  {
+    "name": "aromatisse",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/683.png"
+  },
+  {
+    "name": "swirlix",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/684.png"
+  },
+  {
+    "name": "slurpuff",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/685.png"
+  },
+  {
+    "name": "inkay",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/686.png"
+  },
+  {
+    "name": "malamar",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/687.png"
+  },
+  {
+    "name": "binacle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png"
+  },
+  {
+    "name": "barbaracle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/689.png"
+  },
+  {
+    "name": "skrelp",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/690.png"
+  },
+  {
+    "name": "dragalge",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/691.png"
+  },
+  {
+    "name": "clauncher",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/692.png"
+  },
+  {
+    "name": "clawitzer",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/693.png"
+  },
+  {
+    "name": "helioptile",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/694.png"
+  },
+  {
+    "name": "heliolisk",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/695.png"
+  },
+  {
+    "name": "tyrunt",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/696.png"
+  },
+  {
+    "name": "tyrantrum",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/697.png"
+  },
+  {
+    "name": "amaura",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/698.png"
+  },
+  {
+    "name": "aurorus",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/699.png"
+  },
+  {
+    "name": "sylveon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png"
+  },
+  {
+    "name": "hawlucha",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/701.png"
+  },
+  {
+    "name": "dedenne",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/702.png"
+  },
+  {
+    "name": "carbink",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/703.png"
+  },
+  {
+    "name": "goomy",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png"
+  },
+  {
+    "name": "sliggoo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png"
+  },
+  {
+    "name": "goodra",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png"
+  },
+  {
+    "name": "klefki",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/707.png"
+  },
+  {
+    "name": "phantump",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png"
+  },
+  {
+    "name": "trevenant",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png"
+  },
+  {
+    "name": "pumpkaboo-average",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png"
+  },
+  {
+    "name": "gourgeist-average",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png"
+  },
+  {
+    "name": "bergmite",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/712.png"
+  },
+  {
+    "name": "avalugg",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/713.png"
+  },
+  {
+    "name": "noibat",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png"
+  },
+  {
+    "name": "noivern",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png"
+  },
+  {
+    "name": "xerneas",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png"
+  },
+  {
+    "name": "yveltal",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/717.png"
+  },
+  {
+    "name": "zygarde-50",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png"
+  },
+  {
+    "name": "diancie",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/719.png"
+  },
+  {
+    "name": "hoopa",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/720.png"
+  },
+  {
+    "name": "volcanion",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/721.png"
+  },
+  {
+    "name": "rowlet",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/722.png"
+  },
+  {
+    "name": "dartrix",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/723.png"
+  },
+  {
+    "name": "decidueye",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/724.png"
+  },
+  {
+    "name": "litten",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/725.png"
+  },
+  {
+    "name": "torracat",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/726.png"
+  },
+  {
+    "name": "incineroar",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png"
+  },
+  {
+    "name": "popplio",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/728.png"
+  },
+  {
+    "name": "brionne",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/729.png"
+  },
+  {
+    "name": "primarina",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/730.png"
+  },
+  {
+    "name": "pikipek",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/731.png"
+  },
+  {
+    "name": "trumbeak",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/732.png"
+  },
+  {
+    "name": "toucannon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/733.png"
+  },
+  {
+    "name": "yungoos",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/734.png"
+  },
+  {
+    "name": "gumshoos",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/735.png"
+  },
+  {
+    "name": "grubbin",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/736.png"
+  },
+  {
+    "name": "charjabug",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/737.png"
+  },
+  {
+    "name": "vikavolt",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/738.png"
+  },
+  {
+    "name": "crabrawler",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/739.png"
+  },
+  {
+    "name": "crabominable",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/740.png"
+  },
+  {
+    "name": "oricorio-baile",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/741.png"
+  },
+  {
+    "name": "cutiefly",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/742.png"
+  },
+  {
+    "name": "ribombee",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/743.png"
+  },
+  {
+    "name": "rockruff",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/744.png"
+  },
+  {
+    "name": "lycanroc-midday",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/745.png"
+  },
+  {
+    "name": "wishiwashi-solo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/746.png"
+  },
+  {
+    "name": "mareanie",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/747.png"
+  },
+  {
+    "name": "toxapex",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/748.png"
+  },
+  {
+    "name": "mudbray",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/749.png"
+  },
+  {
+    "name": "mudsdale",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/750.png"
+  },
+  {
+    "name": "dewpider",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/751.png"
+  },
+  {
+    "name": "araquanid",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/752.png"
+  },
+  {
+    "name": "fomantis",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/753.png"
+  },
+  {
+    "name": "lurantis",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/754.png"
+  },
+  {
+    "name": "morelull",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/755.png"
+  },
+  {
+    "name": "shiinotic",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/756.png"
+  },
+  {
+    "name": "salandit",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/757.png"
+  },
+  {
+    "name": "salazzle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/758.png"
+  },
+  {
+    "name": "stufful",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/759.png"
+  },
+  {
+    "name": "bewear",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/760.png"
+  },
+  {
+    "name": "bounsweet",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/761.png"
+  },
+  {
+    "name": "steenee",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/762.png"
+  },
+  {
+    "name": "tsareena",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png"
+  },
+  {
+    "name": "comfey",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/764.png"
+  },
+  {
+    "name": "oranguru",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/765.png"
+  },
+  {
+    "name": "passimian",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/766.png"
+  },
+  {
+    "name": "wimpod",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/767.png"
+  },
+  {
+    "name": "golisopod",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/768.png"
+  },
+  {
+    "name": "sandygast",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/769.png"
+  },
+  {
+    "name": "palossand",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/770.png"
+  },
+  {
+    "name": "pyukumuku",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/771.png"
+  },
+  {
+    "name": "type-null",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png"
+  },
+  {
+    "name": "silvally",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773.png"
+  },
+  {
+    "name": "minior-red-meteor",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/774.png"
+  },
+  {
+    "name": "komala",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/775.png"
+  },
+  {
+    "name": "turtonator",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/776.png"
+  },
+  {
+    "name": "togedemaru",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/777.png"
+  },
+  {
+    "name": "mimikyu-disguised",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/778.png"
+  },
+  {
+    "name": "bruxish",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/779.png"
+  },
+  {
+    "name": "drampa",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/780.png"
+  },
+  {
+    "name": "dhelmise",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/781.png"
+  },
+  {
+    "name": "jangmo-o",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/782.png"
+  },
+  {
+    "name": "hakamo-o",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/783.png"
+  },
+  {
+    "name": "kommo-o",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/784.png"
+  },
+  {
+    "name": "tapu-koko",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/785.png"
+  },
+  {
+    "name": "tapu-lele",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/786.png"
+  },
+  {
+    "name": "tapu-bulu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/787.png"
+  },
+  {
+    "name": "tapu-fini",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/788.png"
+  },
+  {
+    "name": "cosmog",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/789.png"
+  },
+  {
+    "name": "cosmoem",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/790.png"
+  },
+  {
+    "name": "solgaleo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/791.png"
+  },
+  {
+    "name": "lunala",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/792.png"
+  },
+  {
+    "name": "nihilego",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/793.png"
+  },
+  {
+    "name": "buzzwole",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/794.png"
+  },
+  {
+    "name": "pheromosa",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/795.png"
+  },
+  {
+    "name": "xurkitree",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/796.png"
+  },
+  {
+    "name": "celesteela",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/797.png"
+  },
+  {
+    "name": "kartana",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/798.png"
+  },
+  {
+    "name": "guzzlord",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/799.png"
+  },
+  {
+    "name": "necrozma",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/800.png"
+  },
+  {
+    "name": "magearna",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/801.png"
+  },
+  {
+    "name": "marshadow",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/802.png"
+  },
+  {
+    "name": "poipole",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/803.png"
+  },
+  {
+    "name": "naganadel",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/804.png"
+  },
+  {
+    "name": "stakataka",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/805.png"
+  },
+  {
+    "name": "blacephalon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/806.png"
+  },
+  {
+    "name": "zeraora",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/807.png"
+  },
+  {
+    "name": "meltan",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/808.png"
+  },
+  {
+    "name": "melmetal",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/809.png"
+  },
+  {
+    "name": "grookey",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/810.png"
+  },
+  {
+    "name": "thwackey",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/811.png"
+  },
+  {
+    "name": "rillaboom",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/812.png"
+  },
+  {
+    "name": "scorbunny",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/813.png"
+  },
+  {
+    "name": "raboot",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/814.png"
+  },
+  {
+    "name": "cinderace",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/815.png"
+  },
+  {
+    "name": "sobble",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/816.png"
+  },
+  {
+    "name": "drizzile",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/817.png"
+  },
+  {
+    "name": "inteleon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/818.png"
+  },
+  {
+    "name": "skwovet",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/819.png"
+  },
+  {
+    "name": "greedent",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/820.png"
+  },
+  {
+    "name": "rookidee",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/821.png"
+  },
+  {
+    "name": "corvisquire",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/822.png"
+  },
+  {
+    "name": "corviknight",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/823.png"
+  },
+  {
+    "name": "blipbug",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/824.png"
+  },
+  {
+    "name": "dottler",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/825.png"
+  },
+  {
+    "name": "orbeetle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/826.png"
+  },
+  {
+    "name": "nickit",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/827.png"
+  },
+  {
+    "name": "thievul",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/828.png"
+  },
+  {
+    "name": "gossifleur",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/829.png"
+  },
+  {
+    "name": "eldegoss",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/830.png"
+  },
+  {
+    "name": "wooloo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/831.png"
+  },
+  {
+    "name": "dubwool",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/832.png"
+  },
+  {
+    "name": "chewtle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/833.png"
+  },
+  {
+    "name": "drednaw",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/834.png"
+  },
+  {
+    "name": "yamper",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/835.png"
+  },
+  {
+    "name": "boltund",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/836.png"
+  },
+  {
+    "name": "rolycoly",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/837.png"
+  },
+  {
+    "name": "carkol",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/838.png"
+  },
+  {
+    "name": "coalossal",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/839.png"
+  },
+  {
+    "name": "applin",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/840.png"
+  },
+  {
+    "name": "flapple",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/841.png"
+  },
+  {
+    "name": "appletun",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/842.png"
+  },
+  {
+    "name": "silicobra",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/843.png"
+  },
+  {
+    "name": "sandaconda",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/844.png"
+  },
+  {
+    "name": "cramorant",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/845.png"
+  },
+  {
+    "name": "arrokuda",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/846.png"
+  },
+  {
+    "name": "barraskewda",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/847.png"
+  },
+  {
+    "name": "toxel",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/848.png"
+  },
+  {
+    "name": "toxtricity-amped",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/849.png"
+  },
+  {
+    "name": "sizzlipede",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/850.png"
+  },
+  {
+    "name": "centiskorch",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/851.png"
+  },
+  {
+    "name": "clobbopus",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/852.png"
+  },
+  {
+    "name": "grapploct",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/853.png"
+  },
+  {
+    "name": "sinistea",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/854.png"
+  },
+  {
+    "name": "polteageist",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/855.png"
+  },
+  {
+    "name": "hatenna",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/856.png"
+  },
+  {
+    "name": "hattrem",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/857.png"
+  },
+  {
+    "name": "hatterene",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/858.png"
+  },
+  {
+    "name": "impidimp",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/859.png"
+  },
+  {
+    "name": "morgrem",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/860.png"
+  },
+  {
+    "name": "grimmsnarl",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/861.png"
+  },
+  {
+    "name": "obstagoon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/862.png"
+  },
+  {
+    "name": "perrserker",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/863.png"
+  },
+  {
+    "name": "cursola",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/864.png"
+  },
+  {
+    "name": "sirfetchd",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/865.png"
+  },
+  {
+    "name": "mr-rime",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/866.png"
+  },
+  {
+    "name": "runerigus",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/867.png"
+  },
+  {
+    "name": "milcery",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/868.png"
+  },
+  {
+    "name": "alcremie",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869.png"
+  },
+  {
+    "name": "falinks",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/870.png"
+  },
+  {
+    "name": "pincurchin",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/871.png"
+  },
+  {
+    "name": "snom",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/872.png"
+  },
+  {
+    "name": "frosmoth",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/873.png"
+  },
+  {
+    "name": "stonjourner",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/874.png"
+  },
+  {
+    "name": "eiscue-ice",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/875.png"
+  },
+  {
+    "name": "indeedee-male",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/876.png"
+  },
+  {
+    "name": "morpeko-full-belly",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/877.png"
+  },
+  {
+    "name": "cufant",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/878.png"
+  },
+  {
+    "name": "copperajah",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/879.png"
+  },
+  {
+    "name": "dracozolt",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/880.png"
+  },
+  {
+    "name": "arctozolt",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/881.png"
+  },
+  {
+    "name": "dracovish",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/882.png"
+  },
+  {
+    "name": "arctovish",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/883.png"
+  },
+  {
+    "name": "duraludon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/884.png"
+  },
+  {
+    "name": "dreepy",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/885.png"
+  },
+  {
+    "name": "drakloak",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/886.png"
+  },
+  {
+    "name": "dragapult",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/887.png"
+  },
+  {
+    "name": "zacian",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/888.png"
+  },
+  {
+    "name": "zamazenta",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/889.png"
+  },
+  {
+    "name": "eternatus",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/890.png"
+  },
+  {
+    "name": "kubfu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/891.png"
+  },
+  {
+    "name": "urshifu-single-strike",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/892.png"
+  },
+  {
+    "name": "zarude",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/893.png"
+  },
+  {
+    "name": "regieleki",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/894.png"
+  },
+  {
+    "name": "regidrago",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/895.png"
+  },
+  {
+    "name": "glastrier",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/896.png"
+  },
+  {
+    "name": "spectrier",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/897.png"
+  },
+  {
+    "name": "calyrex",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/898.png"
+  },
+  {
+    "name": "wyrdeer",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/899.png"
+  },
+  {
+    "name": "kleavor",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/900.png"
+  },
+  {
+    "name": "ursaluna",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/901.png"
+  },
+  {
+    "name": "basculegion-male",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/902.png"
+  },
+  {
+    "name": "sneasler",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/903.png"
+  },
+  {
+    "name": "overqwil",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/904.png"
+  },
+  {
+    "name": "enamorus-incarnate",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/905.png"
+  },
+  {
+    "name": "sprigatito",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png"
+  },
+  {
+    "name": "floragato",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/907.png"
+  },
+  {
+    "name": "meowscarada",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/908.png"
+  },
+  {
+    "name": "fuecoco",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/909.png"
+  },
+  {
+    "name": "crocalor",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/910.png"
+  },
+  {
+    "name": "skeledirge",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/911.png"
+  },
+  {
+    "name": "quaxly",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/912.png"
+  },
+  {
+    "name": "quaxwell",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/913.png"
+  },
+  {
+    "name": "quaquaval",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/914.png"
+  },
+  {
+    "name": "lechonk",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/915.png"
+  },
+  {
+    "name": "oinkologne-male",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/916.png"
+  },
+  {
+    "name": "tarountula",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/917.png"
+  },
+  {
+    "name": "spidops",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/918.png"
+  },
+  {
+    "name": "nymble",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/919.png"
+  },
+  {
+    "name": "lokix",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/920.png"
+  },
+  {
+    "name": "pawmi",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/921.png"
+  },
+  {
+    "name": "pawmo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/922.png"
+  },
+  {
+    "name": "pawmot",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/923.png"
+  },
+  {
+    "name": "tandemaus",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/924.png"
+  },
+  {
+    "name": "maushold-family-of-four",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/925.png"
+  },
+  {
+    "name": "fidough",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/926.png"
+  },
+  {
+    "name": "dachsbun",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/927.png"
+  },
+  {
+    "name": "smoliv",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/928.png"
+  },
+  {
+    "name": "dolliv",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/929.png"
+  },
+  {
+    "name": "arboliva",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/930.png"
+  },
+  {
+    "name": "squawkabilly-green-plumage",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/931.png"
+  },
+  {
+    "name": "nacli",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/932.png"
+  },
+  {
+    "name": "naclstack",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/933.png"
+  },
+  {
+    "name": "garganacl",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/934.png"
+  },
+  {
+    "name": "charcadet",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/935.png"
+  },
+  {
+    "name": "armarouge",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/936.png"
+  },
+  {
+    "name": "ceruledge",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png"
+  },
+  {
+    "name": "tadbulb",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/938.png"
+  },
+  {
+    "name": "bellibolt",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/939.png"
+  },
+  {
+    "name": "wattrel",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/940.png"
+  },
+  {
+    "name": "kilowattrel",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/941.png"
+  },
+  {
+    "name": "maschiff",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/942.png"
+  },
+  {
+    "name": "mabosstiff",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/943.png"
+  },
+  {
+    "name": "shroodle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/944.png"
+  },
+  {
+    "name": "grafaiai",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/945.png"
+  },
+  {
+    "name": "bramblin",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/946.png"
+  },
+  {
+    "name": "brambleghast",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/947.png"
+  },
+  {
+    "name": "toedscool",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/948.png"
+  },
+  {
+    "name": "toedscruel",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/949.png"
+  },
+  {
+    "name": "klawf",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/950.png"
+  },
+  {
+    "name": "capsakid",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/951.png"
+  },
+  {
+    "name": "scovillain",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/952.png"
+  },
+  {
+    "name": "rellor",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/953.png"
+  },
+  {
+    "name": "rabsca",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/954.png"
+  },
+  {
+    "name": "flittle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/955.png"
+  },
+  {
+    "name": "espathra",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/956.png"
+  },
+  {
+    "name": "tinkatink",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/957.png"
+  },
+  {
+    "name": "tinkatuff",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/958.png"
+  },
+  {
+    "name": "tinkaton",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/959.png"
+  },
+  {
+    "name": "wiglett",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/960.png"
+  },
+  {
+    "name": "wugtrio",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/961.png"
+  },
+  {
+    "name": "bombirdier",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/962.png"
+  },
+  {
+    "name": "finizen",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/963.png"
+  },
+  {
+    "name": "palafin-zero",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/964.png"
+  },
+  {
+    "name": "varoom",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/965.png"
+  },
+  {
+    "name": "revavroom",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/966.png"
+  },
+  {
+    "name": "cyclizar",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/967.png"
+  },
+  {
+    "name": "orthworm",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/968.png"
+  },
+  {
+    "name": "glimmet",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/969.png"
+  },
+  {
+    "name": "glimmora",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/970.png"
+  },
+  {
+    "name": "greavard",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/971.png"
+  },
+  {
+    "name": "houndstone",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/972.png"
+  },
+  {
+    "name": "flamigo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/973.png"
+  },
+  {
+    "name": "cetoddle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/974.png"
+  },
+  {
+    "name": "cetitan",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/975.png"
+  },
+  {
+    "name": "veluza",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/976.png"
+  },
+  {
+    "name": "dondozo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/977.png"
+  },
+  {
+    "name": "tatsugiri-curly",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/978.png"
+  },
+  {
+    "name": "annihilape",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/979.png"
+  },
+  {
+    "name": "clodsire",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/980.png"
+  },
+  {
+    "name": "farigiraf",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/981.png"
+  },
+  {
+    "name": "dudunsparce-two-segment",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/982.png"
+  },
+  {
+    "name": "kingambit",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/983.png"
+  },
+  {
+    "name": "great-tusk",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/984.png"
+  },
+  {
+    "name": "scream-tail",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/985.png"
+  },
+  {
+    "name": "brute-bonnet",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/986.png"
+  },
+  {
+    "name": "flutter-mane",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/987.png"
+  },
+  {
+    "name": "slither-wing",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/988.png"
+  },
+  {
+    "name": "sandy-shocks",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/989.png"
+  },
+  {
+    "name": "iron-treads",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/990.png"
+  },
+  {
+    "name": "iron-bundle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/991.png"
+  },
+  {
+    "name": "iron-hands",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/992.png"
+  },
+  {
+    "name": "iron-jugulis",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/993.png"
+  },
+  {
+    "name": "iron-moth",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/994.png"
+  },
+  {
+    "name": "iron-thorns",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/995.png"
+  },
+  {
+    "name": "frigibax",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/996.png"
+  },
+  {
+    "name": "arctibax",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/997.png"
+  },
+  {
+    "name": "baxcalibur",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/998.png"
+  },
+  {
+    "name": "gimmighoul",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/999.png"
+  },
+  {
+    "name": "gholdengo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1000.png"
+  },
+  {
+    "name": "wo-chien",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1001.png"
+  },
+  {
+    "name": "chien-pao",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1002.png"
+  },
+  {
+    "name": "ting-lu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1003.png"
+  },
+  {
+    "name": "chi-yu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1004.png"
+  },
+  {
+    "name": "roaring-moon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1005.png"
+  },
+  {
+    "name": "iron-valiant",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1006.png"
+  },
+  {
+    "name": "koraidon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1007.png"
+  },
+  {
+    "name": "miraidon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1008.png"
+  },
+  {
+    "name": "walking-wake",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1009.png"
+  },
+  {
+    "name": "iron-leaves",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1010.png"
   }
 ];
 
