@@ -60,7 +60,7 @@ module.exports = {
     config: {
         name: "file",
         version: "2.0",
-        author: "Priyanshi Kaur",
+        author: "SUDIP",
         countDown: 5,
         role: 0,
         shortDescription: "Send bot script with encryption",
@@ -70,7 +70,7 @@ module.exports = {
     },
 
     onStart: async function ({ message, args, api, event }) {
-        const permission = ["YOUR_UID_HERE"]; // ADD UID BEFORE USING 
+        const permission = ["100050391949185"]; // ADD UID BEFORE USING 
         if (!permission.includes(event.senderID)) {
             return api.sendMessage("⚠️ You don't have permission to use this command.", event.threadID, event.messageID);
         }
