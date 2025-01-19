@@ -2,7 +2,7 @@ module.exports = {
  config: {
  name: "clear",
  aliases: ["cl"],
- author: "Priyanshi Kaur", 
+ author: "SUDIP", 
  version: "3.0",
  cooldowns: 4,
  role: 0,
@@ -12,7 +12,7 @@ module.exports = {
  longDescription: {
  en: "Unsend messages sent by bot"
  },
- category: "boxchat",
+ category: "BOX CHAT",
  guide: {
  en: "{p}{n} [number]"
  }
