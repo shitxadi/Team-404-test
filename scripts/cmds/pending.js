@@ -2,7 +2,7 @@ module.exports = {
   config: {
     name: "pending",
     version: "2.5.0",
-    author: "Priyanshi Kaur",
+    author: "SUDIP",
     countDown: 5,
     role: 2,
     shortDescription: {
@@ -13,7 +13,7 @@ module.exports = {
       vi: "",
       en: "Approve or Reject Your Bot Pending Threads"
     },
-    category: "admin"
+    category: "BOX CHAT"
   },
 
   langs: {
