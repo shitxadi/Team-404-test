@@ -66,7 +66,7 @@ module.exports = {
 
   // Start the Pokémon spawn timer
   startPokemonTimer: function (threadID, message) {
-    const interval = 4 * 60 * 1000; // 40 minutes in milliseconds
+    const interval = 40 * 60 * 1000; // 40 minutes in milliseconds
 
     // Clear any existing timer
     clearTimeout(spawnTimers[threadID]);
