@@ -4123,7 +4123,7 @@ module.exports = {
 
       // Announce the Pokémon spawn
       const form = {
-        body: `A wild Pokémon appeared: ${randomPokemon.name.toUpperCase()}! Reply with its name to catch it!`,
+        body: `A wild Pokémon appeared! Add them to your pokemon collection by replying pokemon name`,
         attachment: await global.utils.getStreamFromURL(randomPokemon.image),
       };
 
