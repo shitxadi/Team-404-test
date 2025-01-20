@@ -64,9 +64,10 @@ module.exports = {
     // Increment message count
     global.poke[event.threadID]++;
 
-    // Set message count required for spawn
-    const spawnThreshold = 20; // Change this value if needed
-
+// Timer function for spawning Pokémon
+  startPokemonTimer: function (threadID, message) {
+    const interval =  2 * 60 * 1000; // Default is 40 minutes (customize as needed)
+    
     // Check if it's time to spawn a Pokémon
     if (global.poke[event.threadID] >= spawnThreshold) {
       // Reset message count
