@@ -29,7 +29,7 @@ module.exports = {
             confirmThisThread: "Please react to this message with any emoji to confirm changing the prefix in your chat box",
             successGlobal: "Changed prefix of Queen Bot V2 to: %1",
             successThisThread: "Changed prefix in your chat box to: %1",
-            botInfo: "✨ Queen Bot V2 - Your Cute Assistant ✨\n\n"
+            botInfo: "✨ Lvy Muse By Sudip - Your Cute Assistant ✨\n\n"
                 + "🌸 Current system prefix: %1\n"
                 + "🎀 Current chat box prefix: %2\n\n"
                 + "Available commands:\n"
